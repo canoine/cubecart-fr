@@ -4,68 +4,70 @@
 		<title>fr-FR</title>
 		<code>fr-FR</code>
 		<character_set>utf-8</character_set>
-		<version>1.1.0b</version><!-- CNE Paypal Commerce 1.6.2 -->
+		<version>1.1.0b</version><!-- CNE Paypal Commerce 1.7.1 -->
 		<minVersion>5.0.0</minVersion>
 		<maxVersion>6.*.*</maxVersion>
 	</info>
 	<translation>
 		<group name="paypal_commerce">
-			<string name="venmo"><![CDATA[Venmo (États-Unis uniquement)]]></string>
+			<string name="display_pdp"><![CDATA[Afficher Paypal dans la page de description de l&apos;article]]></string>
+			<string name="default"><![CDATA[(si d&apos;autres m&eacute;thodes de paiement sont actives.)]]></string>
+			<string name="venmo"><![CDATA[Venmo (&Eacute;tats-Unis uniquement)]]></string>
 			<string name="enable_venmo"><![CDATA[Activer Venmo]]></string>
 			<string name="plm_placement"><![CDATA[Payer plus tard - afficher le message]]></string>
-			<string name="plm_home"><![CDATA[Page d'accueil]]></string>
-			<string name="plm_category"><![CDATA[Categorie d'articles]]></string>
-			<string name="plm_product"><![CDATA[Page de description de l'article]]></string>
+			<string name="plm_home"><![CDATA[Page d&apos;accueil]]></string>
+			<string name="plm_category"><![CDATA[Cat&eacute;gorie d&apos;articles]]></string>
+			<string name="plm_product"><![CDATA[Page de description de l&apos;article]]></string>
 			<string name="plm_cart"><![CDATA[Page du panier]]></string>
 			<string name="plm_payment"><![CDATA[Page de paiement]]></string>
 			<string name="pl_text_align"><![CDATA[Alignement du texte]]></string>
 			<string name="pl_text_align_payment"><![CDATA[Alignement du texte (commande)]]></string>
-			<string name="left"><![CDATA[À gauche]]></string>
-			<string name="center"><![CDATA[Centré]]></string>
-			<string name="right"><![CDATA[À droite]]></string>
+			<string name="left"><![CDATA[&Agrave; gauche]]></string>
+			<string name="center"><![CDATA[Centr&eacute;]]></string>
+			<string name="right"><![CDATA[&Agrave; droite]]></string>
 			<string name="pl_layout"><![CDATA[Format du message]]></string>
 			<string name="pl_logo"><![CDATA[Type de logo]]></string>
 			<string name="pl_position"><![CDATA[Alignement du logo]]></string>
 			<string name="pl_color"><![CDATA[Couleur du texte]]></string>
 			<string name="pl_size"><![CDATA[Taille du texte]]></string>
-			<string name="paylater_style"><![CDATA[Payer plus tard - format du message [<a href="https://developer.paypal.com/docs/checkout/integration-features/customize-button/" target="_blank">Plus d'informations</a>]]]></string>
-			<string name="paylater_pdp_dom"><![CDATA[Payer plus tard - page de description de l'article]]></string>
+			<string name="paylater_style"><![CDATA[Payer plus tard - format du message [<a href="https://developer.paypal.com/docs/checkout/integration-features/customize-button/" target="_blank">Plus d&apos;informations</a>]]]></string>
+			<string name="paylater_pdp_dom"><![CDATA[Payer plus tard - page de description de l&apos;article]]></string>
 			<string name="pl_dom"><![CDATA[Emplacement DOM HTML du message]]></string>
 			<string name="pl_dom_man"><![CDATA[JQuery DOM Manipulator]]></string>
-			<string name="plp_only"><![CDATA[Page de description de l'article uniquement]]></string>
+			<string name="plp_only"><![CDATA[Page de description de l&apos;article uniquement]]></string>
 			<string name="plb_only"><![CDATA[Panier uniquement]]></string>
 			<string name="pl_everywhere"><![CDATA[Page de description et panier]]></string>
 			<string name="pay_later"><![CDATA[Payer plus tard]]></string>
 			<string name="pay_later_button"><![CDATA[Bouton Payer plus tard]]></string>
 			<string name="pay_later_messaging"><![CDATA[Afficher le message Payer plus tard]]></string>
-			<string name="pay_later_disclaimer"><![CDATA[Afficher le message Payer plus tard dans la limite des offres disponibles. <a href="https://developer.paypal.com/docs/commerce-platforms/admin-panel/" target="_blank">Conditions d'utilisation et informations ici</a>.]]></string>
-			<string name="skip_webhook_verification"><![CDATA[Passer outre la vérification webhook]]></string>
+			<string name="pay_later_disclaimer"><![CDATA[Afficher le message Payer plus tard dans la limite des offres disponibles. <a href="https://developer.paypal.com/docs/commerce-platforms/admin-panel/" target="_blank">Conditions d&apos;utilisation et informations ici</a>.]]></string>
+			<string name="skip_webhook_verification"><![CDATA[Passer outre la v&eacute;rification webhook]]></string>
 			<string name="pay_by_card"><![CDATA[Payer par carte]]></string>
-			<string name="card_number"><![CDATA[Numéro de carte]]></string>
+			<string name="card_number"><![CDATA[Num&eacute;ro de carte]]></string>
 			<string name="expiry_date"><![CDATA[Expire]]></string>
 			<string name="cvv"><![CDATA[CVV]]></string>
 			<string name="cvv_placeholder"><![CDATA[CVV]]></string>
 			<string name="make_payment"><![CDATA[Payer]]></string>
 			<string name="expire_placeholder"><![CDATA[MM / AAAA]]></string>
 			<string name="title"><![CDATA[Plateforme de commerce PayPal]]></string>
-			<string name="strap"><![CDATA[Acceptez le paiement par carte, PayPal et d'autres modes de paiement via la nouvelle plateforme de commerce PayPal pour les entreprises.]]></string>
-			<string name="onboarding"><![CDATA[Intégration]]></string>
+			<string name="strap"><![CDATA[Acceptez le paiement par carte, PayPal et d&apos;autres modes de paiement via la nouvelle plateforme de commerce PayPal pour les entreprises.]]></string>
+			<string name="onboarding"><![CDATA[Int&eacute;gration]]></string>
 			<string name="primary_email"><![CDATA[Adresse email du compte]]></string>
 			<string name="secret"><![CDATA[Secret]]></string>
 			<string name="client_id"><![CDATA[Client ID]]></string>
 			<string name="click_to_reveal"><![CDATA[Cliquez pour afficher]]></string>
-			<string name="payment_settings"><![CDATA[Paramètres de paiement]]></string>
+			<string name="payment_settings"><![CDATA[Param&egrave;tres de paiement]]></string>
 			<string name="enable_ppc"><![CDATA[Activer le paiement via PayPal]]></string>
-			<string name="settlement_mode"><![CDATA[Mode de règlement]]></string>
-			<string name="capture"><![CDATA[Récupérer le paiement immédiatement]]></string>
-			<string name="authorize"><![CDATA[Autoriser la récupération ultérieure du paiement]]></string>
+			<string name="settlement_mode"><![CDATA[Mode de r&egrave;glement]]></string>
+			<string name="capture"><![CDATA[R&eacute;cup&eacute;rer le paiement imm&eacute;diatement]]></string>
+			<string name="authorize"><![CDATA[Autoriser la r&eacute;cup&eacute;ration ult&eacute;rieure du paiement]]></string>
 			<string name="disable_cards"><![CDATA[Paiements par carte]]></string>
 			<string name="3ds"><![CDATA[3D Secure]]></string>
-			<string name="3ds_note"><![CDATA[3D Secure vous permet d'authentifier les détenteurs de cartes via leur banque émettrice. Il réduit le risque de fraude lorsque vous utilisez des cartes prises en charge et améliore la fluidité des transactions. Une authentification 3D Secure réussie peut dégager la responsabilité des rétrofacturations dues à une fraude de votre part - le commerçant - vers l'émetteur de la carte.]]></string>
-			<string name="3ds_note_2"><![CDATA[L'authentification 3D Secure n'est effectuée que si la carte est inscrite au service. Dans les scénarios où l'authentification 3D Secure n'a pas réussi, vous avez la possibilité d'autoriser le paiement, à vos risques et périls. Ce qui signifie que vous, le commerçant, serez responsable en cas de refacturation.]]></string>
-			<string name="3ds_scenario"><![CDATA[Scénarios 3D Secure]]></string>
-			<string name="hide_advanced"><![CDATA[Masquer les paramètres avancés]]></string>
-			<string name="show_advanced"><![CDATA[Afficher les paramètres avancés]]></string>
+			<string name="3ds_note"><![CDATA[3D Secure vous permet d&apos;authentifier les d&eacute;tenteurs de cartes via leur banque &eacute;mettrice. Il r&eacute;duit le risque de fraude lorsque vous utilisez des cartes prises en charge et am&eacute;liore la fluidit&eacute; des transactions. Une authentification 3D Secure r&eacute;ussie peut d&eacute;gager la responsabilit&eacute; des r&eacute;trofacturations dues &agrave; une fraude de votre part - le commerçant - vers l&apos;&eacute;metteur de la carte.]]></string>
+			<string name="3ds_note_2"><![CDATA[L&apos;authentification 3D Secure n&apos;est effectu&eacute;e que si la carte est inscrite au service. Dans les sc&eacute;narios o&ugrave; l&apos;authentification 3D Secure n&apos;a pas r&eacute;ussi, vous avez la possibilit&eacute; d&apos;autoriser le paiement, &agrave; vos risques et p&eacute;rils. Ce qui signifie que vous, le commerçant, serez responsable en cas de refacturation.]]></string>
+			<string name="3ds_scenario"><![CDATA[Sc&eacute;narios 3D Secure]]></string>
+			<string name="hide_advanced"><![CDATA[Masquer les param&egrave;tres avanc&eacute;s]]></string>
+			<string name="show_advanced"><![CDATA[Afficher les param&egrave;tres avanc&eacute;s]]></string>
 			<string name="button_styling"><![CDATA[Style des boutons]]></string>
 			<string name="button_layout"><![CDATA[Disposition des boutons]]></string>
 			<string name="horizontal"><![CDATA[Horizontal]]></string>
@@ -88,23 +90,23 @@
 			<string name="webhooks"><![CDATA[Webhooks]]></string>
 			<string name="url"><![CDATA[URL]]></string>
 			<string name="webhook_id"><![CDATA[Webhook ID]]></string>
-			<string name="webhook_ids"><![CDATA[Webhooks enregistrés]]></string>
-			<string name="start_today"><![CDATA[Acceptez les paiements avec PayPal dès aujourd'hui&nbsp;!]]></string>
+			<string name="webhook_ids"><![CDATA[Webhooks enregistr&eacute;s]]></string>
+			<string name="start_today"><![CDATA[Acceptez les paiements avec PayPal d&egrave;s aujourd&apos;hui&nbsp;!]]></string>
 			<string name="sign_up_or"><![CDATA[Inscrivez-vous ou connectez votre compte]]></string>
-			<string name="disconnect"><![CDATA[Déconnectez votre compte PayPal]]></string>
-			<string name="disconnect_check"><![CDATA[Voulez-vous vraiment déconnecter votre compte PayPal&nbsp;?]]></string>
-			<string name="express_signup"><![CDATA[Si votre pays n'est pas disponible dans la liste lorsque vous passez par l'expérience d'intégration PayPal, <a target="_blank" data-paypal-onboard-complete="onboardedCallback" href="%SIGN_UP_LINK%" data-paypal-button="">cliquez ici</a>.]]></string>
-			<string name="undefined_undefined_undefined"><![CDATA[3D Secure n'est pas requis pour cet acheteur ou le réseau de cartes n'exige pas 3D Secure.]]></string>
-			<string name="false_ERROR_ERROR"><![CDATA[Une erreur s'est produite avec le système d'authentification 3DS.]]></string>
-			<string name="false_NO_SKIPPED_BY_BUYER"><![CDATA[L'acheteur s'est vu présenter 3D Secure mais a choisi de sauter l'authentification.]]></string>
-			<string name="false_NO_FAILURE"><![CDATA[L'acheteur a peut-être échoué ou l'appareil n'a pas été vérifié.]]></string>
-			<string name="false_NO_BYPASSED"><![CDATA[3D Secure a été ignoré car le système d'authentification n'a pas nécessité de test.]]></string>
-			<string name="false_NO_ATTEMPTED"><![CDATA[La carte n'est pas inscrite à 3D Secure car la banque émettrice de la carte ne participe pas à 3D Secure.]]></string>
-			<string name="false_NO_UNAVAILABLE"><![CDATA[La banque émettrice n'est pas en mesure de terminer l'authentification.]]></string>
-			<string name="false_NO_CARD_INELIGIBLE"><![CDATA[La carte n'est pas éligible à l'authentification 3DS Secure.]]></string>
+			<string name="disconnect"><![CDATA[D&eacute;connectez votre compte PayPal]]></string>
+			<string name="disconnect_check"><![CDATA[Voulez-vous vraiment d&eacute;connecter votre compte PayPal&nbsp;?]]></string>
+			<string name="express_signup"><![CDATA[Si votre pays n&apos;est pas disponible dans la liste lorsque vous passez par l&apos;exp&eacute;rience d&apos;int&eacute;gration PayPal, <a target="_blank" data-paypal-onboard-complete="onboardedCallback" href="%SIGN_UP_LINK%" data-paypal-button="">cliquez ici</a>.]]></string>
+			<string name="undefined_undefined_undefined"><![CDATA[3D Secure n&apos;est pas requis pour cet acheteur ou le r&eacute;seau de cartes n&apos;exige pas 3D Secure.]]></string>
+			<string name="false_ERROR_ERROR"><![CDATA[Une erreur s&apos;est produite avec le syst&egrave;me d&apos;authentification 3DS.]]></string>
+			<string name="false_NO_SKIPPED_BY_BUYER"><![CDATA[L&apos;acheteur s&apos;est vu pr&eacute;senter 3D Secure mais a choisi de sauter l&apos;authentification.]]></string>
+			<string name="false_NO_FAILURE"><![CDATA[L&apos;acheteur a peut-&ecirc;tre &eacute;chou&eacute; ou l&apos;appareil n&apos;a pas &eacute;t&eacute; v&eacute;rifi&eacute;.]]></string>
+			<string name="false_NO_BYPASSED"><![CDATA[3D Secure a &eacute;t&eacute; ignor&eacute; car le syst&egrave;me d&apos;authentification n&apos;a pas n&eacute;cessit&eacute; de test.]]></string>
+			<string name="false_NO_ATTEMPTED"><![CDATA[La carte n&apos;est pas inscrite &agrave; 3D Secure car la banque &eacute;mettrice de la carte ne participe pas &agrave; 3D Secure.]]></string>
+			<string name="false_NO_UNAVAILABLE"><![CDATA[La banque &eacute;mettrice n&apos;est pas en mesure de terminer l&apos;authentification.]]></string>
+			<string name="false_NO_CARD_INELIGIBLE"><![CDATA[La carte n&apos;est pas &eacute;ligible &agrave; l&apos;authentification 3DS Secure.]]></string>
 			<string name="please_wait"><![CDATA[Veuillez patienter&hellip;]]></string>
-			<string name="order_status_behaviour"><![CDATA[État de la commande]]></string>
-      <string name="order_status_change_on"><![CDATA[Passer la commande en &laquo;&nbsp;Traitement en cours&nbsp;&raquo; après]]></string>
+			<string name="order_status_behaviour"><![CDATA[&eacute;tat de la commande]]></string>
+      <string name="order_status_change_on"><![CDATA[Passer la commande en &laquo;&nbsp;Traitement en cours&nbsp;&raquo; apr&egrave;s]]></string>
       <string name="payment_capture"><![CDATA[paiement direct]]></string>
       <string name="payment_authorization"><![CDATA[autorisation de paiement]]></string>
 		</group>

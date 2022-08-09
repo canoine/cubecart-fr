@@ -4,7 +4,7 @@
   <title>Français (FR)</title> <!-- Ne pas remplacer le "ç" -->
   <code>fr-FR</code>
   <character_set>utf-8</character_set>
-  <version>1.1.0b</version> <!-- CubeCart 6.4.5 -->
+  <version>1.1.0b</version> <!-- CubeCart 6.4.6 -->
   <minVersion>5.0.0</minVersion>
   <maxVersion>6.*.*</maxVersion>
   <default_currency>EUR</default_currency>
@@ -467,7 +467,8 @@
 	<string name="title_coupon_create" introduced="5.0.0"><![CDATA[Cr&eacute;er un code de r&eacute;duction]]></string>
 	<string name="title_coupon_detail" introduced="5.0.0"><![CDATA[D&eacute;tails du code de r&eacute;duction]]></string>
 	<string name="title_coupon_edit" introduced="5.0.0"><![CDATA[Modifier un code de r&eacute;duction]]></string>
-	<string name="title_coupon_expires" introduced="5.0.0"><![CDATA[Expire]]></string>
+	<string name="title_coupon_expires" introduced="5.0.0"><![CDATA[Fin]]></string>
+    <string name="title_coupon_starts" introduced="6.4.6"><![CDATA[D&eacute;but]]></string>
 	<string name="title_coupon_limits" introduced="5.0.0"><![CDATA[Limites du code de r&eacute;duction]]></string>
 	<string name="title_coupon_convert" introduced="6.0.0"><![CDATA[Conversion de bon-cadeau]]></string>
 	<string name="coupon_convert_desc" introduced="6.0.0"><![CDATA[Pour utiliser un code de r&eacute;duction en tant que bon-cadeau (en gardant un &eacute;quilibre pour des usages multiples), il est possible de lui assigner un num&eacute;ro d&apos;ordre. Ce doit &ecirc;tre un num&eacute;ro d&apos;ordre r&eacute;el avec comme &eacute;tat &laquo;&nbsp;Traitement en cours&nbsp;&raquo; ou &laquo;&nbsp;Termin&eacute&nbsp;&raquo;.]]></string>
@@ -574,7 +575,8 @@
 	<string name="sort_stock" introduced="5.0.0"><![CDATA[En stock]]></string>
   </group>
   <group name="checkout">
-	<string name="error_voucher_free_shipping" introduced="6.4.0"><![CDATA[D&eacute;sol&eacute;, ce code ne peut pas &ecirc;tre utilis&eacute; avec une livraison gratuite.]]></string>
+	<string name="error_voucher_used_already" introduced="6.4.6"><![CDATA[D&eacute;sol&eacute;, le nombre d&apos;utilisations maximal de ce code a &eacute;t&eacute; atteint pour <em>cet utilisateur</em>.]]></string>
+    <string name="error_voucher_free_shipping" introduced="6.4.0"><![CDATA[D&eacute;sol&eacute;, ce code ne peut pas &ecirc;tre utilis&eacute; avec une livraison gratuite.]]></string>
     <string name="error_voucher_manufacturer" introduced="6.4.0"><![CDATA[D&eacute;sol&eacute;, ce code ne fonctionne qu&apos;avec un seul fabricant.]]></string>
     <string name="error_voucher_exceeded" introduced="6.1.14"><![CDATA[D&eacute;sol&eacute;, le nombre d&apos;utilisations maximal de ce code a &eacute;t&eacute; atteint.]]></string>
     <string name="error_voucher_order_status" introduced="6.1.14"><![CDATA[D&eacute;sol&eacute;, ce code est invalide pour le moment.]]></string>
@@ -584,7 +586,8 @@
 	<string name="error_shipping" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, aucune option de livraison n&apos;est disponible. Soit vous avez command&eacute; trop d&apos;articles, soit nous ne livrons pas dans votre pays pour le moment. Contactez-nous pour corriger ce probl&egrave;me.]]></string>
 	<string name="check_shipping" introduced="5.0.0"><![CDATA[Nouvelles options de livraison disponibles. V&eacute;rifiez avant de continuer.]]></string>
 	<string name="error_too_many_added" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, nos stocks sont insuffisants. Nous avons automatiquement r&eacute;duit la quantit&eacute; demand&eacute;e au maximum disponible.]]></string>
-	<string name="error_voucher_expired" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code a expir&eacute;.]]></string>
+	<string name="error_voucher_not_ready" introduced="6.4.6"><![CDATA[D&eacute;sol&eacute;, ce code n&apos;existe plus.]]></string>
+    <string name="error_voucher_expired" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code a expir&eacute;.]]></string>
 	<string name="error_voucher_none" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code n&apos;existe pas.]]></string>
 	<string name="error_voucher_product" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code n&apos;est pas utilisable pour cette commande.]]></string>
 	<string name="error_item_not_available" introduced="6.0.1"><![CDATA[D&eacute;sol&eacute;, l&apos;article &laquo;&nbsp;%s&nbsp;&raquo; n&apos;est plus disponible, il a &eacute;t&eacute; enlev&eacute; de votre panier.]]></string>
@@ -1545,7 +1548,7 @@
 	<string name="not_exist" introduced="6.0.0"><![CDATA[<strong>Erreur&nbsp;:</strong> %s n&apos;existe pas. Cr&eacute;ez-le, et r&eacute;essayez.]]></string>
 	<string name="token_unknown" introduced="6.0.0"><![CDATA[<strong>Erreur&nbsp;:</strong> le jeton n&apos;a pas &eacute;t&eacute; trouv&eacute;, ou a expir&eacute;.]]></string>
 	<string name="token_title" introduced="6.0.0"><![CDATA[Installation automatique/mise &agrave; jour par jeton]]></string>
-	<string name="token_desc" introduced="6.0.0"><![CDATA[L&apos;installation de tout ce qui se trouve sur le d&eacute;pôt CubeCart est un jeu d&apos;enfant, grâce au syt&egrave;me de clefs. R&eacute;p&eacute;rez le module qui vous int&eacute;resse, et cliquez sur l&apos;icône &laquo;&nbsp;&eacute;clair&nbsp;&raquo; (<i class="fa fa-bolt"></i>) &agrave; proximit&eacute; du nom du fichier, pour g&eacute;n&eacute;rer le jeton qui sera utilis&eacute; pour l&apos;installation, la mise &agrave; jour, ou la restauration d&apos;une version ant&eacute;rieure.]]></string>
+	<string name="token_desc" introduced="6.0.0"><![CDATA[L&apos;installation de tout ce qui se trouve sur le d&eacute;pôt CubeCart est un jeu d&apos;enfant, grâce au syt&egrave;me de clefs. R&eacute;p&eacute;rez le module qui vous int&eacute;resse, et cliquez sur l&apos;icône &laquo;&nbsp;&eacute;clair&nbsp;&raquo;&nbsp;(&nbsp;<i class="fa fa-bolt"></i>&nbsp;) &agrave; proximit&eacute; du nom du fichier, pour g&eacute;n&eacute;rer le jeton qui sera utilis&eacute; pour l&apos;installation, la mise &agrave; jour, ou la restauration d&apos;une version ant&eacute;rieure.]]></string>
 	<string name="backup_if_exists" introduced="6.0.0"><![CDATA[Sauvegarder la version actuelle]]></string>
 	<string name="backup_abort" introduced="6.0.0"><![CDATA[Annuler si la sauvegarde &eacute;choue.]]></string>
 	<string name="available_plugins" introduced="6.0.0"><![CDATA[Extensions install&eacute;es]]></string>
@@ -1747,7 +1750,8 @@
 	<string name="name_6" introduced="5.0.0"><![CDATA[Annul&eacute;e]]></string>
   </group>
   <group name="orders">
-	<string name="order_not_found" introduced="6.0.0"><![CDATA[Impossible de trouver la commande n° %s.]]></string>
+	<string name="skip_email_notification" introduced="6.4.6"><![CDATA[Ne pas envoyer de notifications par email lors d&apos;un changement d&apos;&eacute;tat]]></string>
+    <string name="order_not_found" introduced="6.0.0"><![CDATA[Impossible de trouver la commande n° %s.]]></string>
 	<string name="cancel_by_customer" introduced="5.2.13"><![CDATA[Commande annul&eacute;e par le client.]]></string>
 	<string name="card_card_cvv" introduced="5.0.0"><![CDATA[Code de s&eacute;curit&eacute;]]></string>
 	<string name="card_card_details" introduced="5.0.0"><![CDATA[D&eacute;tails de la carte de cr&eacute;dit]]></string>
@@ -1904,7 +1908,8 @@
 	<string name="title_gdpr_report" introduced="6.2.0"><![CDATA[Rapport RGPD]]></string>
   </group>
   <group name="settings">
-	<string name="emailconf" introduced="6.4.5"><![CDATA[Forcer la confirmation de l&apos;adresse email (deux champs)]]></string>
+	<string name="clone_settings" introduced="6.4.6"><![CDATA[Configurez ce que vous voulez ou ne voulez pas copier avant la premi&egrave;re duplication.]]></string>
+    <string name="emailconf" introduced="6.4.5"><![CDATA[Forcer la confirmation de l&apos;adresse email (deux champs)]]></string>
     <string name="redirects" introduced="6.4.0"><![CDATA[Redirections]]></string>
     <string name="image_delete" introduced="6.4.0"><![CDATA[Supprimer les images associ&eacute;es &agrave; l&apos;article supprim&eacute;]]></string>
     <string name="w3w_na" introduced="6.4.0"><![CDATA[<strong>Avertissement&nbsp;:</strong> Il semblerait que l&apos;apparence actuelle est compatible avec whats3words.]]></string>
@@ -2464,6 +2469,7 @@
 	<string name="password_current" introduced="5.0.0"><![CDATA[Mot de passe actuel]]></string>
 	<string name="password_new" introduced="5.0.0"><![CDATA[Nouveau mot de passe]]></string>
 	<string name="title" introduced="5.0.0"><![CDATA[Titre]]></string>
+    <string name="password_too_long" introduced="6.4.6"><![CDATA[Si votre mot de passe d&eacute;passe 64 caract&egrave;res, fermez votre session et utilisez l&apos;outil de r&eacute;initialisation de mot de passe.]]></string>
   </group>
  </translation>
 </language>
