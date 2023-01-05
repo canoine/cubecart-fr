@@ -4,7 +4,7 @@
 		<title>fr-FR</title>
 		<code>fr-FR</code>
 		<character_set>utf-8</character_set>
-		<version>1.1.0b</version><!-- CNE Paypal Commerce 1.7.1 -->
+		<version>1.1.0b</version><!-- CNE Paypal Commerce 1.7.6 -->
 		<minVersion>5.0.0</minVersion>
 		<maxVersion>6.*.*</maxVersion>
 	</info>

@@ -240,7 +240,8 @@
 	<string name="continue_shopping" introduced="6.1.0"><![CDATA[Poursuivre les achats]]></string>
   </group>
   <group name="catalogue">
-	<string name="error_js_required" introduced="6.1.0"><![CDATA[Ce site utilise Javascript. Veuillez activer Javascript dans votre navigateur.]]></string>
+	<string name="no_suitable_attribute" introduced="6.4.8"><![CDATA[Vous ne pouvez créer des options (ex&nbsp;: Grand, Petit) qu'après avoir créé un groupe d'options (ex&nbsp;: Taille) en liste d&eacute;roulante ou radio.]]></string>
+    <string name="error_js_required" introduced="6.1.0"><![CDATA[Ce site utilise Javascript. Veuillez activer Javascript dans votre navigateur.]]></string>
 	<string name="min_purchase_quantity" introduced=""><![CDATA[Quantit&eacute; minimale&nbsp;: %s]]></string>
 	<string name="max_purchase_quantity" introduced=""><![CDATA[Quantit&eacute; maximale&nbsp;: %s]]></string>
 	<string name="maximum_quantity" introduced=""><![CDATA[Quantit&eacute; maximale]]></string>
@@ -602,11 +603,16 @@
 	<string name="confirm_billing" introduced="6.2.8"><![CDATA[V&eacute;rifiez votre adresse de facturation avant de continuer.]]></string>
   </group>
   <group name="common">
-	<string name="private" introduced="6.4.4"><![CDATA[Priv&eacute;]]></string>
+	<string name="eg_size" introduced="6.4.8"><![CDATA[ex&nbsp;: Taille]]></string>
+    <string name="eg_large" introduced="6.4.8"><![CDATA[ex&nbsp;: Grand]]></string>
+    <string name="domain" introduced="6.4.8"><![CDATA[Domaine]]></string>
+    <string name="auto" introduced="6.4.4"><![CDATA[Auto]]></string>
+    <string name="manual" introduced="6.4.3"><![CDATA[Manuel]]></string>
+    <string name="private" introduced="6.4.4"><![CDATA[Priv&eacute;]]></string>
     <string name="phrase" introduced="6.4.3"><![CDATA[Phrase]]></string>
     <string name="key" introduced="6.4.3"><![CDATA[Clef]]></string>
     <string name="page" introduced="6.4.0"><![CDATA[Page]]></string>
-    <string name="item_id" introduced="6.4.0"><![CDATA[ID objet]]></string>
+    <string name="item_id" introduced="6.4.0"><![CDATA[ID article]]></string>
     <string name="watch" introduced="6.4.0"><![CDATA[Regarder]]></string>
     <string name="listen" introduced="6.4.0"><![CDATA[&Eacute;couter]]></string>
     <string name="permanent" introduced="6.4.0"><![CDATA[Permanent]]></string>
@@ -836,7 +842,10 @@
 	<string name="unknown" introduced="5.0.0"><![CDATA[Inconnu]]></string>
 	<string name="update" introduced="5.0.0"><![CDATA[Mettre &agrave; jour]]></string>
 	<string name="upgrade" introduced="5.1.0"><![CDATA[Mise &agrave; jour]]></string>
-	<string name="url" introduced="5.0.0"><![CDATA[URL]]></string>
+	<string name="manual_upgrade" introduced="6.4.8"><![CDATA[Mettre &agrave; jour &agrave; partir du magasin CubeCart]]></string>
+    <string name="auto_upgrade" introduced="6.4.8"><![CDATA[Lancer la mise &agrave; jour automatique]]></string>
+    <string name="auto_upgrade_na" introduced="6.4.8"><![CDATA[Aucune mise &agrave; jour automatique disponible. Faites la mise &agrave; jour manuellement.]]></string>
+    <string name="url" introduced="5.0.0"><![CDATA[URL]]></string>
 	<string name="value" introduced="5.0.0"><![CDATA[Valeur]]></string>
 	<string name="view_all" introduced="5.0.0"><![CDATA[Voir tout]]></string>
 	<string name="view_details" introduced="5.0.0"><![CDATA[Voir d&eacute;tails]]></string>
@@ -878,7 +887,9 @@
 	<string name="title_departments" introduced="5.0.0"><![CDATA[Guichets (facultatif)]]></string>
   </group>
   <group name="country">
-	<string name="eu" introduced="5.2.13"><![CDATA[Union Europ&eacute;enne]]></string>
+	<string name="assign_to_rest" introduced="6.4.8"><![CDATA[Attribuer au reste du monde]]></string>
+    <string name="rest_of_world" introduced="6.4.8"><![CDATA[Reste du monde]]></string>
+    <string name="eu" introduced="5.2.13"><![CDATA[Union Europ&eacute;enne]]></string>
 	<string name="eu_short" introduced="5.2.13"><![CDATA[EU]]></string>
     <string name="assign_to_eu" introduced="5.2.13"><![CDATA[Attribuer &agrave; l&apos;Union Europ&eacute;enne&nbsp;?]]></string>
 	<string name="bread_geo" introduced="5.0.0"><![CDATA[Pays et zones]]></string>
@@ -1081,7 +1092,7 @@
     <string name="purge" introduced="6.4.3"><![CDATA[Nettoyer la liste de diffusion]]></string>
     <string name="confirm_purge" introduced="6.4.3"><![CDATA[Le nettoyage consiste &agrave; supprimer les abonn&eacute;s dont l&apos;adresse email est invalide, ou dont le domaine n&apos;est pas configur&eacute; pour recevoir des emails (pas de champ MX). Voulez-vous continuer&nbsp;?]]></string>
     <string name="macro_stream" introduced="6.4.0"><![CDATA[Est-ce un fichier ou un flux&nbsp;?]]></string>
-    <string name="install_master_lang" introduced="6.0.0"><![CDATA[Cette boutique ne parle actuellement qu&apos;une seul langue. Pour traduire un email dans une autre langue, le fichier de langue correspondant doit &ecirc;tre install&eacute; &agrave; partir de notre <a href="?_g=marketplace">centre de ressources</a>.]]></string>
+    <string name="install_master_lang" introduced="6.0.0"><![CDATA[Cette boutique ne parle actuellement qu&apos;une seul langue. Pour traduire un email dans une autre langue, le fichier de langue correspondant doit &ecirc;tre install&eacute; &agrave; partir de notre <a href="?_g=marketplace">centre de ressourcesmarke</a>.]]></string>
 	<string name="confirm_cancel" introduced="5.0.0"><![CDATA[Voulez-vous vraiment arr&ecirc;ter l&apos;envoi de cette lettre d&apos;information&nbsp;?]]></string>
 	<string name="confirm_send" introduced="5.0.0"><![CDATA[Voulez-vous vraiment envoyer cette lettre d&apos;information&nbsp;?]]></string>
 	<string name="email_macro" introduced="5.0.0"><![CDATA[Macro]]></string>
@@ -1251,7 +1262,10 @@
 	<string name="title_macro_user_newsletter" introduced="6.1.0"><![CDATA[Utilisateur&nbsp;: V&eacute;rifier l&apos;inscription &agrave; la lettre d&apos;information]]></string>
   </group>
   <group name="filemanager">
-	<string name="media_expired" introduced="6.4.2"><![CDATA[D&eacute;sol&eacute;, ce lien a expir&eacute;, ou le fichier n&apos;existe plus.]]></string>
+	<string name="error_file_not_changed" introduced="6.4.8"><![CDATA[Impossible de mettre &agrave; jour le fichier.]]></string>
+    <string name="notice_file_updated" introduced="6.4.8"><![CDATA[Fichier mis &agrave; jour.]]></string>
+    <string name="alt" introduced="6.4.8"><![CDATA[Texte de substitution]]></string>
+    <string name="media_expired" introduced="6.4.2"><![CDATA[D&eacute;sol&eacute;, ce lien a expir&eacute;, ou le fichier n&apos;existe plus.]]></string>
     <string name="stream" introduced="6.4.0"><![CDATA[Flux]]></string>
     <string name="title" introduced="6.4.0"><![CDATA[Titre]]></string>
     <string name="search_location" introduced="6.4.0"><![CDATA[Recherche d&apos;images]]></string>
@@ -1846,7 +1860,7 @@
 	<string name="expired_basket" introduced="6.1.9"><![CDATA[D&eacute;sol&eacute;, votre panier a expir&eacute;.]]></string>
 	<string name="id_incremental" introduced="6.2.0"><![CDATA[Incr&eacute;mental (1, 2, 3, etc.)]]></string>
 	<string name="id_mode" introduced="6.2.0"><![CDATA[Format du num&eacute;ro de commande]]></string>
-	<string name="id_traditional" introduced="6.2.0"><![CDATA[Traditionnel (e.g. YYMMDD-HHMMSS-1234)]]></string>
+	<string name="id_traditional" introduced="6.2.0"><![CDATA[Traditionnel (ex&nbsp;: YYMMDD-HHMMSS-1234)]]></string>
 	<string name="invoice_editor" introduced="6.2.0"><![CDATA[&Eacute;diteur de factures]]></string>
 	<string name="date_specifiers" introduced="6.2.0"><![CDATA[<a href="https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html#function_date-format" target="_blank">Formats de date</a> autoris&eacute;s.]]></string>
     <string name="oid_force" introduced="6.2.0"><![CDATA[Appliquer le formatage &agrave; toutes les commandes pass&eacute;es.]]></string>
@@ -1908,7 +1922,18 @@
 	<string name="title_gdpr_report" introduced="6.2.0"><![CDATA[Rapport RGPD]]></string>
   </group>
   <group name="settings">
-	<string name="clone_settings" introduced="6.4.6"><![CDATA[Configurez ce que vous voulez ou ne voulez pas copier avant la premi&egrave;re duplication.]]></string>
+	<string name="item_id" introduced="6.4.8"><![CDATA[ID article]]></string>
+    <string name="redirect_from" introduced="6.4.8"><![CDATA[Domaine source]]></string>
+    <string name="redirect_to" introduced="6.4.8"><![CDATA[Domaine de destination]]></string>
+    <string name="domain_doc_root" introduced="6.4.8"><![CDATA[Les sous-domaines doivent &ecirc;tre cr&eacute;&eacute;s et correctement param&eacute;tr&eacute;s chez votre h&eacute;bergeur web. Tous les sous-domaines doivent avoir le m&ecirc;me chemin racine.]]></string>
+    <string name="tab_cron" introduced="6.4.8"><![CDATA[T&acirc;ches planifi&eacute;es]]></string>
+    <string name="title_cron" introduced="6.4.8"><![CDATA[Actions disponibles]]></string>
+    <string name="cron_currency" introduced="6.4.8"><![CDATA[Mise à jour des taux de change]]></string>
+    <string name="cron_desc" introduced="6.4.8"><![CDATA[Utilisez les t&acirc;ches planifi&eacute;es (ou cron jobs) pour lancer automatiquement des actions pr&eacute;configur&eacute;es ou personnelles. Contactez le support de votre h&eacute;bergeur web si vous ne savez pas comment activer les t&acirc;ches planifi&eacute;es.]]></string>
+    <string name="cron_cache" introduced="6.4.8"><![CDATA[Vider le cache]]></string>
+    <string name="cron_snippet" introduced="6.4.8"><![CDATA[Morceau de code personnel]]></string>
+    <string name="scheduled_snippet" introduced="6.4.8"><![CDATA[Lance un ou plusieurs <a href="?_g=settings&node=hooks#snippets">morceau(x) de code</a> dont le d&eacute;clencheur est &quot;cron&quot;.]]></string>
+    <string name="clone_settings" introduced="6.4.6"><![CDATA[Configurez ce que vous voulez ou ne voulez pas copier avant la premi&egrave;re duplication.]]></string>
     <string name="emailconf" introduced="6.4.5"><![CDATA[Forcer la confirmation de l&apos;adresse email (deux champs)]]></string>
     <string name="redirects" introduced="6.4.0"><![CDATA[Redirections]]></string>
     <string name="image_delete" introduced="6.4.0"><![CDATA[Supprimer les images associ&eacute;es &agrave; l&apos;article supprim&eacute;]]></string>
