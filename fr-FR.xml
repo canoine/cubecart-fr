@@ -4,13 +4,15 @@
   <title>Français (FR)</title> <!-- Ne pas remplacer le "ç" -->
   <code>fr-FR</code>
   <character_set>utf-8</character_set>
-  <version>1.1.0b</version> <!-- CubeCart 6.4.6 -->
+  <version>1.1.6410</version> <!-- CubeCart 6.4.10 -->
   <minVersion>5.0.0</minVersion>
   <maxVersion>6.*.*</maxVersion>
   <default_currency>EUR</default_currency>
   <text-direction>ltr</text-direction>
   <override></override>
  </info>
+	<!-- Ajout de 2 lignes pour faire correspondre les numéros de ligne
+		 avec le fichier definitions.xml -->
  <translation>
   <group name="account">
 	<string name="error_name_same" introduced="6.4.5"><![CDATA[Le pr&eacute;nom et le nom sont identiques.]]></string>
@@ -240,22 +242,31 @@
 	<string name="continue_shopping" introduced="6.1.0"><![CDATA[Poursuivre les achats]]></string>
   </group>
   <group name="catalogue">
+	<string name="exclude_sale_items" introduced="6.4.10"><![CDATA[Exclure les articles en solde]]></string>
 	<string name="no_suitable_attribute" introduced="6.4.8"><![CDATA[Vous ne pouvez créer des options (ex&nbsp;: Grand, Petit) qu'après avoir créé un groupe d'options (ex&nbsp;: Taille) en liste d&eacute;roulante ou radio.]]></string>
-    <string name="error_js_required" introduced="6.1.0"><![CDATA[Ce site utilise Javascript. Veuillez activer Javascript dans votre navigateur.]]></string>
-	<string name="min_purchase_quantity" introduced=""><![CDATA[Quantit&eacute; minimale&nbsp;: %s]]></string>
+	<string name="success_gc_added"><![CDATA[Le code de r&eacute;duction a &eacute;t&eacute; ajout&eacute; au panier.]]></string>
+	<string name="error_maximum_quantity" introduced=""><![CDATA[Quantit&eacute; maximale autoris&eacute;e&nbsp;: %s]]></string>
 	<string name="max_purchase_quantity" introduced=""><![CDATA[Quantit&eacute; maximale&nbsp;: %s]]></string>
 	<string name="maximum_quantity" introduced=""><![CDATA[Quantit&eacute; maximale]]></string>
 	<string name="other_inc_images" introduced="6.4.0"><![CDATA[Plus d&apos;images]]></string>
+	<string name="min_purchase_quantity" introduced=""><![CDATA[Quantit&eacute; minimale&nbsp;: %s]]></string>
 	<string name="empty_notice" introduced="6.4.0"><![CDATA[Note&nbsp;: les categories ne seront affich&eacute;es que lorsqu&apos;elles contiendront des articles. Ce comportement peut &ecirc;tre modifi&eacute; dans vos <a href="?_g=settings#Layout">pr&eacute;f&eacute;rences</a>.]]></string>
 	<string name="manufacturer_limit" introduced="6.4.0"><![CDATA[Limites au fabricant]]></string>
 	<string name="choose_manufacturers" introduced="6.4.0"><![CDATA[Choix du fabricant]]></string>
 	<string name="absolute_price_explained" introduced="6.1.10"><![CDATA[Une seule option peut avoir un prix absolu. Cette option remplacera le prix d&eacute;fini dans l&apos;onglet &laquo;&nbsp;Prix&nbsp;&raquo;. Il est donc recommand&eacute; de choisir le prix de l&apos;option la plus basse.]]></string>
 	<string name="gc_not_numeric" introduced="6.4.0"><![CDATA[Le code de r&eacute;duction pour un bon-cadeau ne peut pas &ecirc;tre num&eacute;rique. Code modifi&eacute;&nbsp;: &laquo;&nbsp;%s&nbsp;&raquo;.]]></string>
-	<string name="manufacturer_limit" introduced="6.4.0"><![CDATA[Limites au fabricant]]></string>
+	<string name="live_from" introduced="6.2.3"><![CDATA[Date d&apos;introduction (laisser vide pour un ajout &laquo;&nbsp;Maintenant&nbsp;&raquo;)]]></string>
+	<string name="live_from_eg" introduced="6.2.3"><![CDATA[ex&nbsp;: 10 Septembre 2020 14:00:00]]></string>
+	<string name="live_time_invalid" introduced="6.2.3"><![CDATA[La date d&apos;introduction sp&eacute;cifi&eacute;e est invalide. R&eacute;essayez.]]></string>
+	<string name="guide_currency" introduced="6.2.0"><![CDATA[Devise]]></string>
 	<string name="gc_failed" introduced="6.1.14"><![CDATA[L&apos;envoi du bon-cadeau a &eacute;chou&eacute;. V&eacute;rifiez la <a href="?_g=settings#Advanced_Settings">configuration email</a>.]]></string>
 	<string name="gc_specific_error" introduced="6.1.14"><![CDATA[V&eacute;rifiez les messages dans le <a href="?_g=settings&node=errorlog#system_error_log">journal d&apos;erreurs</a>.]]></string>
-    <string name="gd_memory_error" introduced="6.1.5"><![CDATA[Impossible de cr&eacute;er la miniature de &laquo;&nbsp;%s&nbsp;&raquo;. Soit il n&apos;y a plus assez d&apos;espace disque, soit le fichier est invalide ou corrompu.]]></string>
-    <string name="available_for_purchase" introduced="6.0.0"><![CDATA[En stock]]></string>
+	<string name="tap_gallery" introduced="6.1.6"><![CDATA[Tapoter pour afficher les images]]></string>
+	<string name="tap_enlarge" introduced="6.1.6"><![CDATA[Tapoter pour agrandir]]></string>
+	<string name="gd_memory_error" introduced="6.1.5"><![CDATA[Impossible de cr&eacute;er la miniature de &laquo;&nbsp;%s&nbsp;&raquo;. Soit il n&apos;y a plus assez d&apos;espace disque, soit le fichier est invalide ou corrompu.]]></string>
+	<string name="error_js_required" introduced="6.1.0"><![CDATA[Ce site utilise Javascript. Veuillez activer Javascript dans votre navigateur.]]></string>
+	<string name="absolute_price" introduced="6.0.7"><![CDATA[Prix total/suppl&eacute;ment]]></string>
+	<string name="available_for_purchase" introduced="6.0.0"><![CDATA[En stock]]></string>
 	<string name="added_to_basket" introduced="6.0.0"><![CDATA[Ajout&eacute; au panier]]></string>
 	<string name="add_to_basket" introduced="5.0.0"><![CDATA[Ajouter au panier]]></string>
 	<string name="allowed_uses" introduced="5.0.0"><![CDATA[Utilisations autoris&eacute;es]]></string>
@@ -276,13 +287,15 @@
 	<string name="condition_refurbished" introduced="5.0.0"><![CDATA[Reconditionn&eacute;]]></string>
 	<string name="condition_damaged" introduced="5.4.5"><![CDATA[Endommag&eacute;]]></string>
 	<string name="coupon_code" introduced="5.0.0"><![CDATA[Code de r&eacute;duction]]></string>
-	<string name="coupon_per_customer" introduced="6.4.0"><![CDATA[Nombre d&apos;utilisations maximum par client (vide&nbsp;: illimit&eacute;).]]></string>
 	<string name="coupon_shipping" introduced="5.0.0"><![CDATA[La remise s&apos;applique au frais de livraison]]></string>
+	<string name="free_coupon_shipping" introduced="6.1.0"><![CDATA[Livraison gratuite]]></string>
+	<string name="free_shipping_excluded" introduced="6.4.5"><![CDATA[Refuser ce code lorsque la livraison est gratuite]]></string>
+	<string name="coupon_per_customer" introduced="6.4.0"><![CDATA[Nombre d&apos;utilisations maximum par client (vide&nbsp;: illimit&eacute;).]]></string>
 	<string name="coupon_no_shipping" introduced="5.1.5"><![CDATA[Lors du choix des articles, la remise ne sera <strong>pas</strong> appliqu&eacute;e sur la livraison.]]></string>
 	<string name="coupon_include" introduced="5.1.5"><![CDATA[La r&eacute;duction ne s&apos;applique qu&apos;aux articles ci-dessus]]></string>
 	<string name="coupon_exclude" introduced="5.1.5"><![CDATA[La r&eacute;duction s&apos;applique &agrave; tous les articles ci-dessus SAUF]]></string>
 	<string name="coupon_shipping_only" introduced="6.2.3"><![CDATA[Ce code de r&eacute;duction ne s&apos;applique qu&apos;aux frais de livraison]]></string>
-    <string name="customer_reviews" introduced="5.0.0"><![CDATA[Avis clients]]></string>
+	<string name="customer_reviews" introduced="5.0.0"><![CDATA[Avis clients]]></string>
 	<string name="delete_option_disabled" introduced="5.0.0"><![CDATA[Cette option ne peut pas &ecirc;tre supprim&eacute;e car elle fait partie d&apos;un groupe d&apos;options. Mais vous pouvez la d&eacute;sactiver.]]></string>
 	<string name="delimiter" introduced="5.0.0"><![CDATA[Caract&egrave;re de s&eacute;paration]]></string>
 	<string name="delimiter_tab" introduced="5.0.0"><![CDATA[Onglet]]></string>
@@ -294,6 +307,7 @@
 	<string name="download_access_key" introduced="5.0.0"><![CDATA[T&eacute;l&eacute;charger la clef d&apos;acc&egrave;s]]></string>
 	<string name="error_category_defaulted" introduced="5.0.0"><![CDATA[Aucune cat&eacute;gorie primaire n&apos;a &eacute;t&eacute; s&eacute;lectionn&eacute;e, une cat&eacute;gorie a &eacute;t&eacute; choisie automatiquement.]]></string>
 	<string name="error_category_error" introduced="5.0.0"><![CDATA[Cette cat&eacute;gorie n&apos;existe pas.]]></string>
+	<string name="error_rating_required" introduced="6.0.5"><![CDATA[Aucun avis donn&eacute;.]]></string>
 	<string name="error_coupon_delete" introduced="5.0.0"><![CDATA[Impossible de supprimer le code de r&eacute;duction.]]></string>
 	<string name="error_gc_email" introduced="5.0.0"><![CDATA[Indiquez une adresse email valide.]]></string>
 	<string name="error_gc_value" introduced="5.0.0"><![CDATA[La valeur du bon-cadeau doit &ecirc;tre un nombre.]]></string>
@@ -308,6 +322,7 @@
 	<string name="error_manufacturer_found" introduced="5.0.0"><![CDATA[Ce fabricant n&apos;existe pas.]]></string>
 	<string name="error_manufacturer_none" introduced="5.0.0"><![CDATA[Aucun fabricant n&apos;a &eacute;t&eacute; ajout&eacute;.]]></string>
 	<string name="error_manufacturer_update" introduced="5.0.0"><![CDATA[Impossible de mettre &agrave; jour le fabricant.]]></string>
+	<string name="error_minimum_quantity" introduced="5.2.6"><![CDATA[Quantit&eacute; minimale autoris&eacute;e&nbsp;: %s]]></string>
 	<string name="error_no_stock_available" introduced="5.2.0"><![CDATA[Cet article est en rupture de stock.]]></string>
 	<string name="error_no_stock_available_options" introduced="5.2.0"><![CDATA[Cet article est en rupture de stock dans les caract&eacute;ristiques indiqu&eacute;es.]]></string>
 	<string name="error_option_attrib_create" introduced="5.0.0"><![CDATA[Impossible de cr&eacute;er cette option.]]></string>
@@ -341,6 +356,7 @@
 	<string name="image_included" introduced="5.0.0"><![CDATA[Image incluse]]></string>
 	<string name="image_main" introduced="5.0.0"><![CDATA[Image principale]]></string>
 	<string name="image_comma" introduced="6.0.0"><![CDATA[Images (s&eacute;par&eacute;es par des virgules)]]></string>
+	<string name="import_disclaimer" introduced="6.0.9"><![CDATA[<strong>Avertissement&nbsp;:</strong> Cet outil n&apos;est <u>pas</u> con&ccedil;u pour g&eacute;rer un catalogue, mais uniquement pour importer de nouveaux articles.]]></string>
 	<string name="import_column_ignore" introduced="5.0.0"><![CDATA[-- Ignorer --]]></string>
 	<string name="import_csv_headers" introduced="5.0.0"><![CDATA[Le fichier CSV a une ligne d&apos;en-t&ecirc;te]]></string>
 	<string name="import_format" introduced="5.0.0"><![CDATA[Format]]></string>
@@ -355,12 +371,17 @@
 	<string name="login_to_view" introduced="5.0.0"><![CDATA[Se connecter pour voir les prix]]></string>
 	<string name="manufacturer" introduced="5.0.0"><![CDATA[Fabricant]]></string>
 	<string name="master_caregory_id" introduced="5.0.0"><![CDATA[Cat&eacute;gories (ID ou nom, s&eacute;par&eacute;s par des virgules)]]></string>
+	<string name="matrix_stock_level" introduced="5.2.6"><![CDATA[(Stock complet de toutes les combinaisons de l&apos;article)]]></string>
+	<string name="minimum_quantity" introduced="5.2.6"><![CDATA[Quantit&eacute; minimale]]></string>
 	<string name="minimum_subtotal" introduced="5.0.0"><![CDATA[Sous-total minimum]]></string>
 	<string name="no_categories_specified" introduced="5.0.0"><![CDATA[Aucune cat&eacute;gorie n&apos;a &eacute;t&eacute; attribu&eacute;e &agrave; cet article.]]></string>
 	<string name="no_option_groups" introduced="5.0.0"><![CDATA[Aucun groupe d&apos;options d&eacute;fini.]]></string>
 	<string name="no_option_sets" introduced="5.2.0b1"><![CDATA[Aucun groupe d&apos;options d&eacute;fini pour le moment.]]></string>
+	<string name="no_option_set_attributes" introduced="6.0.5"><![CDATA[Aucune option attribu&eacute;e.]]></string>
+	<string name="no_option_sets_assigned" introduced="6.0.5"><![CDATA[Aucun groupe d&apos;options attribu&eacute;.]]></string>
 	<string name="no_taxes_setup" introduced="5.0.0"><![CDATA[Aucune taxe attribu&eacute;e.]]></string>
 	<string name="notify_assign_update" introduced="5.0.0"><![CDATA[Les articles ont &eacute;t&eacute; mis &agrave; jour et attribu&eacute;s en cons&eacute;quence.]]></string>
+	<string name="notify_prices_updates" introduced="6.1.0"><![CDATA[Les prix ont &eacute;t&eacute; mis &agrave; jour.]]></string>
 	<string name="notify_certs_none" introduced="5.0.0"><![CDATA[Aucun bon-cadeau d&eacute;fini.]]></string>
 	<string name="notify_coupon_deleted" introduced="5.0.0"><![CDATA[Code de r&eacute;duction supprim&eacute;.]]></string>
 	<string name="notify_coupon_create" introduced="5.0.0"><![CDATA[Code de r&eacute;duction ajout&eacute;.]]></string>
@@ -413,11 +434,7 @@
 	<string name="product_jan" introduced="5.0.0"><![CDATA[Code JAN]]></string>
 	<string name="product_isbn" introduced="5.0.0"><![CDATA[Code ISBN]]></string>
 	<string name="product_brand" introduced="5.0.0"><![CDATA[Marque]]></string>
-	<string name="product_depth" introduced="6.2.0"><![CDATA[&Eacute;paisseur]]></string>
-	<string name="product_featured" introduced="6.0.10"><![CDATA[Article populaire]]></string>
 	<string name="product_google_category" introduced="5.2.3"><![CDATA[Cat&eacute;gorie Google]]></string>
-	<string name="product_height" introduced="6.2.0"><![CDATA[Hauteur]]></string>
-	<string name="product_width" introduced="6.2.0"><![CDATA[Largeur]]></string>
 	<string name="product_gtin" introduced="5.2.1"><![CDATA[Code GTIN]]></string>
 	<string name="product_mpn" introduced="5.2.1"><![CDATA[Code MPN]]></string>
 	<string name="product_code" introduced="5.0.0"><![CDATA[Code article]]></string>
@@ -425,6 +442,7 @@
 	<string name="product_details" introduced="5.0.0"><![CDATA[D&eacute;tails article]]></string>
 	<string name="product_description" introduced="5.0.0"><![CDATA[Description article]]></string>
 	<string name="product_doesnt_exist" introduced="5.0.0"><![CDATA[Cet article est introuvable.]]></string>
+	<string name="product_featured" introduced="6.0.10"><![CDATA[Article populaire]]></string>
 	<string name="product_id" introduced="5.0.0"><![CDATA[Id article]]></string>
 	<string name="product_info" introduced="5.0.0"><![CDATA[Informations article]]></string>
 	<string name="product_latest" introduced="5.0.0"><![CDATA[Inclure dans la liste des &laquo;&nbsp;derniers articles&nbsp;&raquo;]]></string>
@@ -433,8 +451,11 @@
 	<string name="product_type_digital" introduced="5.0.0"><![CDATA[Article num&eacute;rique]]></string>
 	<string name="product_type_tangible" introduced="5.0.0"><![CDATA[Article physique]]></string>
 	<string name="product_weight" introduced="5.0.0"><![CDATA[Poids de l&apos;article]]></string>
+	<string name="product_width" introduced="6.2.0"><![CDATA[Largeur]]></string>
+	<string name="product_height" introduced="6.2.0"><![CDATA[Hauteur]]></string>
+	<string name="product_depth" introduced="6.2.0"><![CDATA[&Eacute;paisseur]]></string>
 	<string name="dimension_unit" introduced="6.2.0"><![CDATA[Unit&eacute; de mesure]]></string>
-    <string name="quantity_discounts" introduced="5.0.0"><![CDATA[Remises sur quantit&eacute;]]></string>
+	<string name="quantity_discounts" introduced="5.0.0"><![CDATA[Remises sur quantit&eacute;]]></string>
 	<string name="quantity_discounts_explained" introduced="5.0.0"><![CDATA[Vous pouvez faire des &eacute;conomies sur ​​cet article si vous en achetez plusieurs en une seule commande.Le tableau ci-dessous indique les quantit&eacute;s minimales requises pour b&eacute;n&eacute;ficier de cette offre ainsi que leur prix.]]></string>
 	<string name="recipient_email" introduced="5.0.0"><![CDATA[Adresse email du destinataire]]></string>
 	<string name="recipient_name" introduced="5.0.0"><![CDATA[Nom du destinataire]]></string>
@@ -445,9 +466,9 @@
 	<string name="review_anon" introduced="5.0.0"><![CDATA[Anonyme]]></string>
 	<string name="review_info" introduced="5.0.0"><![CDATA[%1$s en moyenne, bas&eacute; sur <a href="%3$s">%2$s avis</a>]]></string>
 	<string name="review_title" introduced="5.0.0"><![CDATA[Titre de l&apos;avis]]></string>
+	<string name="reviews_no_gravatar" introduced="6.2.7"><![CDATA[Actif (Gravatar d&eacute;sactiv&eacute;)]]></string>
 	<string name="saving" introduced="5.0.0"><![CDATA[Enregistrer]]></string>
 	<string name="set_assign" introduced="5.0.0"><![CDATA[Attribuer un groupe d&apos;options]]></string>
-	<string name="specification" introduced="6.0.0"><![CDATA[Caract&eacute;ristiques]]></string>
 	<string name="stock_available" introduced="5.0.0"><![CDATA[En stock]]></string>
 	<string name="stock_level" introduced="5.0.0"><![CDATA[Nombre en stock]]></string>
 	<string name="stock_level_use" introduced="5.0.0"><![CDATA[Utiliser le nombre en stock]]></string>
@@ -458,10 +479,10 @@
 	<string name="tax_included" introduced="5.0.0"><![CDATA[Taxes incluses]]></string>
 	<string name="tax_inclusive" introduced="5.0.0"><![CDATA[Taxes comprises]]></string>
 	<string name="tax_type" introduced="5.0.0"><![CDATA[Type de taxe]]></string>
+	<string name="title_category_assigned" introduced="5.0.0"><![CDATA[Attribuer &agrave; une cat&eacute;gorie]]></string>
 	<string name="category_assign_1" introduced="6.1.0"><![CDATA[1. S&eacute;lectionnez les articles &agrave; assigner &agrave; une cat&eacute;gorie.]]></string>
 	<string name="category_assign_2" introduced="6.1.0"><![CDATA[2. S&eacute;lectionnez les cat&eacute;gories &agrave; assigner.]]></string>
 	<string name="category_assign_3" introduced="6.1.0"><![CDATA[3. Cliquez sur &laquo;&nbsp;Enregistrer&nbsp;&raquo;]]></string>
-	<string name="title_category_assigned" introduced="5.0.0"><![CDATA[Attribuer &agrave; une cat&eacute;gorie]]></string>
 	<string name="title_coupon_add" introduced="5.0.0"><![CDATA[Ajouter un nouveau code de r&eacute;duction]]></string>
 	<string name="title_coupon_code" introduced="5.0.0"><![CDATA[Code de r&eacute;duction]]></string>
 	<string name="title_coupon_count" introduced="5.0.0"><![CDATA[Nombre d&apos;utilisations]]></string>
@@ -469,7 +490,7 @@
 	<string name="title_coupon_detail" introduced="5.0.0"><![CDATA[D&eacute;tails du code de r&eacute;duction]]></string>
 	<string name="title_coupon_edit" introduced="5.0.0"><![CDATA[Modifier un code de r&eacute;duction]]></string>
 	<string name="title_coupon_expires" introduced="5.0.0"><![CDATA[Fin]]></string>
-    <string name="title_coupon_starts" introduced="6.4.6"><![CDATA[D&eacute;but]]></string>
+	<string name="title_coupon_starts" introduced="6.4.6"><![CDATA[D&eacute;but]]></string>
 	<string name="title_coupon_limits" introduced="5.0.0"><![CDATA[Limites du code de r&eacute;duction]]></string>
 	<string name="title_coupon_convert" introduced="6.0.0"><![CDATA[Conversion de bon-cadeau]]></string>
 	<string name="coupon_convert_desc" introduced="6.0.0"><![CDATA[Pour utiliser un code de r&eacute;duction en tant que bon-cadeau (en gardant un &eacute;quilibre pour des usages multiples), il est possible de lui assigner un num&eacute;ro d&apos;ordre. Ce doit &ecirc;tre un num&eacute;ro d&apos;ordre r&eacute;el avec comme &eacute;tat &laquo;&nbsp;Traitement en cours&nbsp;&raquo; ou &laquo;&nbsp;Termin&eacute&nbsp;&raquo;.]]></string>
@@ -506,8 +527,10 @@
 	<string name="title_option_group_add" introduced="5.0.0"><![CDATA[Ajouter un nouveau groupe]]></string>
 	<string name="title_option_groups" introduced="5.0.0"><![CDATA[Groupes d&apos;options]]></string>
 	<string name="title_option_set_add" introduced="5.0.0"><![CDATA[Cr&eacute;er un nouveau groupe]]></string>
+	<string name="title_option_set_add_desc" introduced="5.0.0"><![CDATA[Un groupe d&apos;options permet d&apos;ajouter en une seule fois un ensemble d&apos;options &agrave; des articles plut&ocirc;t de les attribuer une par une. Une fois le groupe cr&eacute;&eacute;, vous pourrez choisir les options &agrave; lui attribuer.]]></string>
 	<string name="title_option_set_append" introduced="5.0.0"><![CDATA[Ajouter des options au groupe]]></string>
 	<string name="title_option_set_assign" introduced="5.0.0"><![CDATA[Attribuer des groupes d&apos;options]]></string>
+	<string name="title_bulk_prices" introduced="6.1.0"><![CDATA[Prix de gros]]></string>
 	<string name="title_option_sets" introduced="5.0.0"><![CDATA[Groupes d&apos;options]]></string>
 	<string name="title_option_set" introduced="6.1.5"><![CDATA[Groupe d&apos;options]]></string>
 	<string name="title_options" introduced="5.0.0"><![CDATA[Options]]></string>
@@ -538,31 +561,10 @@
 	<string name="vote_down" introduced="5.0.0"><![CDATA[Rejeter]]></string>
 	<string name="vote_up" introduced="5.0.0"><![CDATA[Accepter]]></string>
 	<string name="write_a_review" introduced="5.0.0"><![CDATA[&Eacute;crire un avis]]></string>
-	<string name="write_review" introduced="5.0.0"><![CDATA[&Eacute;crire avis]]></string>
 	<string name="add_review" introduced="6.1.0"><![CDATA[Ajouter un avis]]></string>
+	<string name="write_review" introduced="5.0.0"><![CDATA[&Eacute;crire avis]]></string>
 	<string name="your_email" introduced="5.0.0"><![CDATA[Email]]></string>
 	<string name="your_name" introduced="5.0.0"><![CDATA[Nom]]></string>
-	<string name="absolute_price" introduced="6.0.7"><![CDATA[Prix total/suppl&eacute;ment]]></string>
-	<string name="error_maximum_quantity" introduced=""><![CDATA[Quantit&eacute; maximale autoris&eacute;e&nbsp;: %s]]></string>
-	<string name="error_minimum_quantity" introduced="5.2.6"><![CDATA[Quantit&eacute; minimale autoris&eacute;e&nbsp;: %s]]></string>
-	<string name="error_rating_required" introduced="6.0.5"><![CDATA[Aucun avis donn&eacute;.]]></string>
-	<string name="free_coupon_shipping" introduced="6.1.0"><![CDATA[Livraison gratuite]]></string>
-	<string name="free_shipping_excluded" introduced="6.4.5"><![CDATA[Refuser ce code lorsque la livraison est gratuite]]></string>
-	<string name="guide_currency" introduced="6.2.0"><![CDATA[Devise]]></string>
-	<string name="matrix_stock_level" introduced="5.2.6"><![CDATA[(Stock complet de toutes les combinaisons de l&apos;article)]]></string>
-    <string name="minimum_quantity" introduced="5.2.6"><![CDATA[Quantit&eacute; minimale]]></string>
-	<string name="import_disclaimer" introduced="6.0.9"><![CDATA[<strong>Avertissement&nbsp;:</strong> Cet outil n&apos;est <u>pas</u> con&ccedil;u pour g&eacute;rer un catalogue, mais uniquement pour importer de nouveaux articles.]]></string>
-	<string name="no_option_set_attributes" introduced="6.0.5"><![CDATA[Aucune option attribu&eacute;e.]]></string>
-	<string name="no_option_sets_assigned" introduced="6.0.5"><![CDATA[Aucun groupe d&apos;options attribu&eacute;.]]></string>
-	<string name="notify_prices_updates" introduced="6.1.0"><![CDATA[Les prix ont &eacute;t&eacute; mis &agrave; jour.]]></string>
-	<string name="notify_product_search_one" introduced="6.2.0"><![CDATA[Un seul article correspondant &agrave; &laquo;&nbsp;%s&nbsp;&raquo; a &eacute;t&eacute; trouv&eacute;.]]></string>
-	<string name="reviews_no_gravatar" introduced="6.2.7"><![CDATA[Actif (Gravatar d&eacute;sactiv&eacute;)]]></string>
-	<string name="tap_enlarge" introduced="6.1.6"><![CDATA[Tapoter pour agrandir]]></string>
-	<string name="tap_gallery" introduced="6.1.6"><![CDATA[Tapoter pour afficher les images]]></string>
-	<string name="title_bulk_prices" introduced="6.1.0"><![CDATA[Prix de gros]]></string>
-	<string name="live_from" introduced="6.2.3"><![CDATA[Date d&apos;introduction (laisser vide pour un ajout &laquo;&nbsp;Maintenant&nbsp;&raquo;)]]></string>
-	<string name="live_from_eg" introduced="6.2.3"><![CDATA[ex&nbsp;: 10 Septembre 2020 14:00:00]]></string>
-	<string name="live_time_invalid" introduced="6.2.3"><![CDATA[La date d&apos;introduction sp&eacute;cifi&eacute;e est invalide. R&eacute;essayez.]]></string>
   </group>
   <group name="category">
 	<string name="no_products" introduced="5.0.0"><![CDATA[Aucun article trouv&eacute;.]]></string>
@@ -576,19 +578,20 @@
 	<string name="sort_stock" introduced="5.0.0"><![CDATA[En stock]]></string>
   </group>
   <group name="checkout">
+	<string name="error_voucher_sales_items_excluded" introduced="6.4.10"><![CDATA[D&eacute;sol&eacute;, ce code n&apos;est pas utilisable pour des articles en solde.]]></string>
 	<string name="error_voucher_used_already" introduced="6.4.6"><![CDATA[D&eacute;sol&eacute;, le nombre d&apos;utilisations maximal de ce code a &eacute;t&eacute; atteint pour <em>cet utilisateur</em>.]]></string>
-    <string name="error_voucher_free_shipping" introduced="6.4.0"><![CDATA[D&eacute;sol&eacute;, ce code ne peut pas &ecirc;tre utilis&eacute; avec une livraison gratuite.]]></string>
-    <string name="error_voucher_manufacturer" introduced="6.4.0"><![CDATA[D&eacute;sol&eacute;, ce code ne fonctionne qu&apos;avec un seul fabricant.]]></string>
-    <string name="error_voucher_exceeded" introduced="6.1.14"><![CDATA[D&eacute;sol&eacute;, le nombre d&apos;utilisations maximal de ce code a &eacute;t&eacute; atteint.]]></string>
-    <string name="error_voucher_order_status" introduced="6.1.14"><![CDATA[D&eacute;sol&eacute;, ce code est invalide pour le moment.]]></string>
-    <string name="stock_availability_changed" introduced="6.4.0"><![CDATA[Les articles ajout&eacute;s dans le panier ne sont plus disponibles.]]></string>
-    <string name="checkout" introduced="5.0.0"><![CDATA[Passer commande]]></string>
+	<string name="error_voucher_free_shipping" introduced="6.4.0"><![CDATA[D&eacute;sol&eacute;, ce code ne peut pas &ecirc;tre utilis&eacute; avec une livraison gratuite.]]></string>
+	<string name="error_voucher_manufacturer" introduced="6.4.0"><![CDATA[D&eacute;sol&eacute;, ce code ne fonctionne qu&apos;avec un seul fabricant.]]></string>
+	<string name="error_voucher_exceeded" introduced="6.1.14"><![CDATA[D&eacute;sol&eacute;, le nombre d&apos;utilisations maximal de ce code a &eacute;t&eacute; atteint.]]></string>
+	<string name="error_voucher_order_status" introduced="6.1.14"><![CDATA[D&eacute;sol&eacute;, ce code est invalide pour le moment.]]></string>
+	<string name="stock_availability_changed" introduced="6.4.0"><![CDATA[Les articles ajout&eacute;s dans le panier ne sont plus disponibles.]]></string>
+	<string name="checkout" introduced="5.0.0"><![CDATA[Passer commande]]></string>
 	<string name="secure_checkout" introduced="6.0.0"><![CDATA[Paiement s&eacute;curis&eacute;]]></string>
 	<string name="error_shipping" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, aucune option de livraison n&apos;est disponible. Soit vous avez command&eacute; trop d&apos;articles, soit nous ne livrons pas dans votre pays pour le moment. Contactez-nous pour corriger ce probl&egrave;me.]]></string>
 	<string name="check_shipping" introduced="5.0.0"><![CDATA[Nouvelles options de livraison disponibles. V&eacute;rifiez avant de continuer.]]></string>
 	<string name="error_too_many_added" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, nos stocks sont insuffisants. Nous avons automatiquement r&eacute;duit la quantit&eacute; demand&eacute;e au maximum disponible.]]></string>
 	<string name="error_voucher_not_ready" introduced="6.4.6"><![CDATA[D&eacute;sol&eacute;, ce code n&apos;existe plus.]]></string>
-    <string name="error_voucher_expired" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code a expir&eacute;.]]></string>
+	<string name="error_voucher_expired" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code a expir&eacute;.]]></string>
 	<string name="error_voucher_none" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code n&apos;existe pas.]]></string>
 	<string name="error_voucher_product" introduced="5.0.0"><![CDATA[D&eacute;sol&eacute;, ce code n&apos;est pas utilisable pour cette commande.]]></string>
 	<string name="error_item_not_available" introduced="6.0.1"><![CDATA[D&eacute;sol&eacute;, l&apos;article &laquo;&nbsp;%s&nbsp;&raquo; n&apos;est plus disponible, il a &eacute;t&eacute; enlev&eacute; de votre panier.]]></string>
@@ -603,29 +606,32 @@
 	<string name="confirm_billing" introduced="6.2.8"><![CDATA[V&eacute;rifiez votre adresse de facturation avant de continuer.]]></string>
   </group>
   <group name="common">
+	<string name="setup" introduced="6.4.10"><![CDATA[Installation]]></string>
+	<string name="configure" introduced="6.4.10"><![CDATA[Configurer]]></string>
+	<string name="nobody" introduced="6.4.8"><![CDATA[Personne]]></string>
 	<string name="eg_size" introduced="6.4.8"><![CDATA[ex&nbsp;: Taille]]></string>
-    <string name="eg_large" introduced="6.4.8"><![CDATA[ex&nbsp;: Grand]]></string>
-    <string name="domain" introduced="6.4.8"><![CDATA[Domaine]]></string>
-    <string name="auto" introduced="6.4.4"><![CDATA[Auto]]></string>
-    <string name="manual" introduced="6.4.3"><![CDATA[Manuel]]></string>
-    <string name="private" introduced="6.4.4"><![CDATA[Priv&eacute;]]></string>
-    <string name="phrase" introduced="6.4.3"><![CDATA[Phrase]]></string>
-    <string name="key" introduced="6.4.3"><![CDATA[Clef]]></string>
-    <string name="page" introduced="6.4.0"><![CDATA[Page]]></string>
-    <string name="item_id" introduced="6.4.0"><![CDATA[ID article]]></string>
-    <string name="watch" introduced="6.4.0"><![CDATA[Regarder]]></string>
-    <string name="listen" introduced="6.4.0"><![CDATA[&Eacute;couter]]></string>
-    <string name="permanent" introduced="6.4.0"><![CDATA[Permanent]]></string>
-    <string name="temporary" introduced="6.4.0"><![CDATA[Temporaire]]></string>
-    <string name="path" introduced="6.4.0"><![CDATA[Chemin]]></string>
-    <string name="destination" introduced="6.4.0"><![CDATA[Destination]]></string>
-    <string name="object" introduced="6.4.0"><![CDATA[Objet]]></string>
-    <string name="object_id" introduced="6.4.0"><![CDATA[ID objet]]></string>
-    <string name="status_code" introduced="6.4.0"><![CDATA[Code &eacute;tat]]></string>
-    <string name="document" introduced="6.4.0"><![CDATA[Document]]></string>
-    <string name="category" introduced="6.4.0"><![CDATA[Cat&eacute;gorie]]></string>
-    <string name="learn_more" introduced="6.4.0"><![CDATA[En savoir plus]]></string>
-    <string name="unavailable" introduced="6.0.0"><![CDATA[Indisponible]]></string>
+	<string name="eg_large" introduced="6.4.8"><![CDATA[ex&nbsp;: Grand]]></string>
+	<string name="domain" introduced="6.4.8"><![CDATA[Domaine]]></string>
+	<string name="auto" introduced="6.4.4"><![CDATA[Auto]]></string>
+	<string name="manual" introduced="6.4.3"><![CDATA[Manuel]]></string>
+	<string name="private" introduced="6.4.4"><![CDATA[Priv&eacute;]]></string>
+	<string name="phrase" introduced="6.4.3"><![CDATA[Phrase]]></string>
+	<string name="key" introduced="6.4.3"><![CDATA[Clef]]></string>
+	<string name="page" introduced="6.4.0"><![CDATA[Page]]></string>
+	<string name="item_id" introduced="6.4.0"><![CDATA[ID article]]></string>
+	<string name="watch" introduced="6.4.0"><![CDATA[Regarder]]></string>
+	<string name="listen" introduced="6.4.0"><![CDATA[&Eacute;couter]]></string>
+	<string name="permanent" introduced="6.4.0"><![CDATA[Permanent]]></string>
+	<string name="temporary" introduced="6.4.0"><![CDATA[Temporaire]]></string>
+	<string name="path" introduced="6.4.0"><![CDATA[Chemin]]></string>
+	<string name="destination" introduced="6.4.0"><![CDATA[Destination]]></string>
+	<string name="object" introduced="6.4.0"><![CDATA[Objet]]></string>
+	<string name="object_id" introduced="6.4.0"><![CDATA[ID objet]]></string>
+	<string name="status_code" introduced="6.4.0"><![CDATA[Code &eacute;tat]]></string>
+	<string name="document" introduced="6.4.0"><![CDATA[Document]]></string>
+	<string name="category" introduced="6.4.0"><![CDATA[Cat&eacute;gorie]]></string>
+	<string name="learn_more" introduced="6.4.0"><![CDATA[En savoir plus]]></string>
+	<string name="unavailable" introduced="6.0.0"><![CDATA[Indisponible]]></string>
 	<string name="thats_it" introduced="6.0.0"><![CDATA[Ça y est&nbsp;!]]></string>
 	<string name="hi_casual" introduced="6.0.0"><![CDATA[Salut]]></string>
 	<string name="options" introduced="6.0.0"><![CDATA[Options]]></string>
@@ -653,7 +659,7 @@
 	<string name="after_save" introduced="6.0.3"><![CDATA[Enregistrer]]></string>
 	<string name="refine_estimate" introduced="6.1.15"><![CDATA[Affiner]]></string>
 	<string name="test" introduced="6.0.3"><![CDATA[Test]]></string>
-    <string name="inherit" introduced="5.2.13"><![CDATA[H&eacute;riter]]></string>
+	<string name="inherit" introduced="5.2.13"><![CDATA[H&eacute;riter]]></string>
 	<string name="resend" introduced="6.1.6"><![CDATA[Envoyer &agrave; nouveau]]></string>
 	<string name="apply" introduced="6.1.0"><![CDATA[Appliquer]]></string>
 	<string name="back" introduced="6.0.11"><![CDATA[Retour]]></string>
@@ -663,7 +669,7 @@
 	<string name="customise_layout" introduced="6.2.0"><![CDATA[Personnaliser l&apos;apparence]]></string>
 	<string name="days" introduced="6.1.0"><![CDATA[Jours]]></string>
 	<string name="accept" introduced="6.2.1"><![CDATA[Accepter]]></string>
-    <string name="decline" introduced="6.2.1"><![CDATA[Refuser]]></string>
+	<string name="decline" introduced="6.2.1"><![CDATA[Refuser]]></string>
 	<string name="delivery" introduced="5.0.2"><![CDATA[Livraison]]></string>
 	<string name="depth" introduced="6.2.0"><![CDATA[&Eacute;paisseur]]></string>
 	<string name="description_short" introduced="6.0.5"><![CDATA[Description courte]]></string>
@@ -686,7 +692,7 @@
 	<string name="read_ltr" introduced="6.1.2"><![CDATA[Lecture de gauche &agrave; droite]]></string>
 	<string name="read_rtl" introduced="6.1.2"><![CDATA[Lecture de droite &agrave; gauche]]></string>
 	<string name="html" introduced="6.1.0"><![CDATA[HTML]]></string>
-    <string name="restore_default" introduced="6.2.0"><![CDATA[R&eacute;initialiser]]></string>
+	<string name="restore_default" introduced="6.2.0"><![CDATA[R&eacute;initialiser]]></string>
 	<string name="sent" introduced="6.1.0"><![CDATA[Envoy&eacute;]]></string>
 	<string name="set_to" introduced="6.1.2"><![CDATA[d&eacute;fini &agrave;]]></string>
 	<string name="specification" introduced="6.0.0"><![CDATA[Caract&eacute;ristiques]]></string>
@@ -776,7 +782,7 @@
 	<string name="message" introduced="5.0.0"><![CDATA[Message]]></string>
 	<string name="misc" introduced="5.0.0"><![CDATA[Divers]]></string>
 	<string name="mobile_site" introduced="5.1.1"><![CDATA[Site pour mobiles]]></string>
-    <string name="more" introduced="5.0.0"><![CDATA[Plus&hellip;]]></string>
+	<string name="more" introduced="5.0.0"><![CDATA[Plus&hellip;]]></string>
 	<string name="more_info" introduced="5.0.0"><![CDATA[Plus d&apos;info]]></string>
 	<string name="name" introduced="5.0.0"><![CDATA[Nom]]></string>
 	<string name="negative" introduced="5.0.0"><![CDATA[N&eacute;gatif]]></string>
@@ -843,9 +849,9 @@
 	<string name="update" introduced="5.0.0"><![CDATA[Mettre &agrave; jour]]></string>
 	<string name="upgrade" introduced="5.1.0"><![CDATA[Mise &agrave; jour]]></string>
 	<string name="manual_upgrade" introduced="6.4.8"><![CDATA[Mettre &agrave; jour &agrave; partir du magasin CubeCart]]></string>
-    <string name="auto_upgrade" introduced="6.4.8"><![CDATA[Lancer la mise &agrave; jour automatique]]></string>
-    <string name="auto_upgrade_na" introduced="6.4.8"><![CDATA[Aucune mise &agrave; jour automatique disponible. Faites la mise &agrave; jour manuellement.]]></string>
-    <string name="url" introduced="5.0.0"><![CDATA[URL]]></string>
+	<string name="auto_upgrade" introduced="6.4.8"><![CDATA[Lancer la mise &agrave; jour automatique]]></string>
+	<string name="auto_upgrade_na" introduced="6.4.8"><![CDATA[Aucune mise &agrave; jour automatique disponible. Faites la mise &agrave; jour manuellement.]]></string>
+	<string name="url" introduced="5.0.0"><![CDATA[URL]]></string>
 	<string name="value" introduced="5.0.0"><![CDATA[Valeur]]></string>
 	<string name="view_all" introduced="5.0.0"><![CDATA[Voir tout]]></string>
 	<string name="view_details" introduced="5.0.0"><![CDATA[Voir d&eacute;tails]]></string>
@@ -888,10 +894,10 @@
   </group>
   <group name="country">
 	<string name="assign_to_rest" introduced="6.4.8"><![CDATA[Attribuer au reste du monde]]></string>
-    <string name="rest_of_world" introduced="6.4.8"><![CDATA[Reste du monde]]></string>
-    <string name="eu" introduced="5.2.13"><![CDATA[Union Europ&eacute;enne]]></string>
+	<string name="rest_of_world" introduced="6.4.8"><![CDATA[Reste du monde]]></string>
+	<string name="eu" introduced="5.2.13"><![CDATA[Union Europ&eacute;enne]]></string>
 	<string name="eu_short" introduced="5.2.13"><![CDATA[EU]]></string>
-    <string name="assign_to_eu" introduced="5.2.13"><![CDATA[Attribuer &agrave; l&apos;Union Europ&eacute;enne&nbsp;?]]></string>
+	<string name="assign_to_eu" introduced="5.2.13"><![CDATA[Attribuer &agrave; l&apos;Union Europ&eacute;enne&nbsp;?]]></string>
 	<string name="bread_geo" introduced="5.0.0"><![CDATA[Pays et zones]]></string>
 	<string name="country_iso_alpha2" introduced="5.0.0"><![CDATA[ISO Alpha-2]]></string>
 	<string name="country_iso_alpha3" introduced="5.0.0"><![CDATA[ISO Alpha-3]]></string>
@@ -920,17 +926,27 @@
 	<string name="zone_abbrev" introduced="5.0.0"><![CDATA[Abr&eacute;viation]]></string>
 	<string name="zone_country" introduced="5.0.0"><![CDATA[Zone pays]]></string>
 	<string name="zone_name" introduced="5.0.0"><![CDATA[Nom]]></string>
-    <string name="zone" introduced="6.2.7"><![CDATA[Zone]]></string>
+	<string name="zone" introduced="6.2.7"><![CDATA[Zone]]></string>
   </group>
   <group name="customer">
+	<string name="cookie_consent" introduced="6.2.1"><![CDATA[Gestion des cookies]]></string>
+	<string name="delete_guests" introduced="6.2.1"><![CDATA[Supprimer tous les clients invit&eacute;s]]></string>
+	<string name="delete_guests_fail" introduced="6.2.1"><![CDATA[Aucun client invit&eacute; supprim&eacute;.]]></string>
+	<string name="delete_guests_success" introduced="6.2.1"><![CDATA[Tous les clients invit&eacute;s ont &eacute;t&eacute; supprim&eacute;s.]]></string>
+	<string name="delete_no_order" introduced="6.2.1"><![CDATA[Supprimer tous les clients qui n&apos;ont jamais command&eacute;]]></string>
+	<string name="delete_older_than" introduced="6.2.1"><![CDATA[Supprimer tous les clients qui n&apos;ont pas command&eacute; depuis %s mois]]></string>
+	<string name="purge_fail" introduced="6.2.1"><![CDATA[Aucun client &agrave; supprimer.]]></string>
+	<string name="purge_success" introduced="6.2.1"><![CDATA[Tous les clients qui n&apos;ont pas command&eacute; depuis %s mois ont &eacute;t&eacute; supprim&eacute;s.]]></string>
+	<string name="no_order_purge" introduced="6.2.1"><![CDATA[Tous les clients qui n&apos;ont jamais command&eacute; ont &eacute;t&eacute; supprim&eacute;s.]]></string>
+	<string name="login_register" introduced="6.2.1"><![CDATA[Inscrivez-vous ou connectez-vous pour continuer.]]></string>
 	<string name="signinas" introduced="6.0.0"><![CDATA[Connexion en tant que &laquo;&nbsp;%s %s&nbsp;&raquo;]]></string>
 	<string name="signin_ssl" introduced="6.4.0"><![CDATA[Authentifiez-vous en SSL dans l&apos;interface d&apos;administration pour pouvoir ensuite vous connecter en tant que client.]]></string>
-    <string name="customer_type" introduced="5.0.0"><![CDATA[Type]]></string>
+	<string name="customer_type" introduced="5.0.0"><![CDATA[Type]]></string>
 	<string name="customer_export" introduced="5.0.0"><![CDATA[Exporter client]]></string>
 	<string name="date_registered" introduced="5.0.0"><![CDATA[Date enregistr&eacute;e]]></string>
 	<string name="error_address_delete" introduced="5.0.0"><![CDATA[Impossible de supprimer l&apos;adresse.]]></string>
 	<string name="error_customer_create" introduced="5.0.0"><![CDATA[Impossible d&apos;ajouter le client.]]></string>
-    <string name="error_customer_create_empty_fields" introduced="6.2.6"><![CDATA[Assurez-vous que les champs nom, pr&eacute;nom et adresse email ne sont pas vides.]]></string>
+	<string name="error_customer_create_empty_fields" introduced="6.2.6"><![CDATA[Assurez-vous que les champs nom, pr&eacute;nom et adresse email ne sont pas vides.]]></string>
 	<string name="error_customer_delete" introduced="5.0.0"><![CDATA[Impossible de supprimer le client.]]></string>
 	<string name="error_customer_delete_orders" introduced="5.0.0"><![CDATA[Le client ne peut pas &ecirc;tre supprim&eacute;, car il a pass&eacute; des commandes.]]></string>
 	<string name="error_customer_found" introduced="5.0.0"><![CDATA[Ce client n&apos;a pas pu &ecirc;tre trouv&eacute;.]]></string>
@@ -966,21 +982,10 @@
 	<string name="title_key_type" introduced="5.0.0"><![CDATA[Type de client&nbsp;]]></string>
 	<string name="title_key_unregistered" introduced="5.0.0"><![CDATA[Client non inscrit]]></string>
 	<string name="title_list" introduced="5.0.0"><![CDATA[Liste de clients]]></string>
-	<string name="cookie_consent" introduced="6.2.1"><![CDATA[Gestion des cookies]]></string>
-	<string name="delete_guests" introduced="6.2.1"><![CDATA[Supprimer tous les clients invit&eacute;s]]></string>
-	<string name="delete_guests_fail" introduced="6.2.1"><![CDATA[Aucun client invit&eacute; supprim&eacute;.]]></string>
-	<string name="delete_guests_success" introduced="6.2.1"><![CDATA[Tous les clients invit&eacute;s ont &eacute;t&eacute; supprim&eacute;s.]]></string>
-	<string name="delete_no_order" introduced="6.2.1"><![CDATA[Supprimer tous les clients qui n&apos;ont jamais command&eacute;]]></string>
-	<string name="delete_older_than" introduced="6.2.1"><![CDATA[Supprimer tous les clients qui n&apos;ont pas command&eacute; depuis %s mois]]></string>
-	<string name="error_customer_create_empty_fields" introduced="6.2.6"><![CDATA[Assurez-vous que le nom, pr&eacute;nom et l&apos;adresse email ne sont pas vides.]]></string>
-	<string name="login_register" introduced="6.2.1"><![CDATA[Inscrivez-vous ou connectez-vous pour continuer.]]></string>
-	<string name="no_order_purge" introduced="6.2.1"><![CDATA[Tous les clients qui n&apos;ont jamais command&eacute; ont &eacute;t&eacute; supprim&eacute;s.]]></string>
-	<string name="purge_fail" introduced="6.2.1"><![CDATA[Aucun client &agrave; supprimer.]]></string>
-	<string name="purge_success" introduced="6.2.1"><![CDATA[Tous les clients qui n&apos;ont pas command&eacute; depuis %s mois ont &eacute;t&eacute; supprim&eacute;s.]]></string>
   </group>
   <group name="dashboard">
 	<string name="cache_reminder" introduced="6.4.0"><![CDATA[Notez que ces modifications ne seront visibles qu&apos;apr&egrave;s avoir cliqu&eacute; sur le bouton &laquo;&nbsp;Vider le cache&nbsp;&raquo;. Ce message ennuyeux, bien qu&apos;important, ne sera affich&eacute; que lors de vos toutes premi&egrave;res connexions.]]></string>
-    <string name="quick_tour" introduced="6.0.0"><![CDATA[Visite rapide]]></string>
+	<string name="quick_tour" introduced="6.0.0"><![CDATA[Visite rapide]]></string>
 	<string name="tour_welcome" introduced="6.0.0"><![CDATA[Bienvenue dans la boutique. Voici un rapide tour d&apos;horizon pour vous aider &agrave; d&eacute;marrer.]]></string>
 	<string name="ok_go" introduced="6.0.0"><![CDATA[Allez, on y va&nbsp;!]]></string>
 	<string name="tour_1" introduced="6.0.0"><![CDATA[D&eacute;finissez quelques informations de base ici, comme le nom et l&apos;adresse de la boutique, la devise principale, le logo.]]></string>
@@ -991,10 +996,10 @@
 	<string name="tour_6_title" introduced="6.0.0"><![CDATA[Texte de la page d&apos;accueil]]></string>
 	<string name="tour_6" introduced="6.0.0"><![CDATA[Mettez &agrave; jour la page d&apos;accueil avec le texte qui vous plaît. Ici vous pouvez g&eacute;rer un &laquo;&nbsp;carroussel&nbsp;&raquo;; et ajouter tout le contenu HTML que vous souhaitez.]]></string>
 	<string name="tour_7_title" introduced="6.2.3"><![CDATA[Vider le cache]]></string>
-    <string name="tour_7" introduced="6.2.3"><![CDATA[Les modifications effectu&eacute;es sur l&apos;interface d&apos;administration ne seront visibles qu&apos;apr&egrave;s avoir cliqu&eacute; sur le bouton &laquo;&nbsp;Vider le cache&nbsp;&raquo;.]]></string>
-    <string name="tour_8_title" introduced="6.2.9"><![CDATA[&Agrave; l&apos;aide&nbsp;!]]></string>
-    <string name="tour_8" introduced="6.2.9"><![CDATA[Un support officiel est &agrave; la disposition des d&eacute;veloppeurs. Vous pouvez aussi compter sur notre active communaut&eacute; de vendeurs pour vous aider.]]></string>
-    <string name="tour_end" introduced="6.0.0"><![CDATA[<p>Nous n&apos;avons fait qu&apos;effleurer la pointe de l&apos;iceberg, mais c&apos;est assez pour commencer les ventes d&egrave;s aujourd&apos;hui. Vous pouvez regarder la vid&eacute;o ci-dessous pour plus de d&eacute;tails.</p><p>Amusez-vous et bonne chance avec votre boutique&nbsp;! </p>]]></string>
+	<string name="tour_7" introduced="6.2.3"><![CDATA[Les modifications effectu&eacute;es sur l&apos;interface d&apos;administration ne seront visibles qu&apos;apr&egrave;s avoir cliqu&eacute; sur le bouton &laquo;&nbsp;Vider le cache&nbsp;&raquo;.]]></string>
+	<string name="tour_8_title" introduced="6.2.9"><![CDATA[&Agrave; l&apos;aide&nbsp;!]]></string>
+	<string name="tour_8" introduced="6.2.9"><![CDATA[Un support officiel est &agrave; la disposition des d&eacute;veloppeurs. Vous pouvez aussi compter sur notre active communaut&eacute; de vendeurs pour vous aider.]]></string>
+	<string name="tour_end" introduced="6.0.0"><![CDATA[<p>Nous n&apos;avons fait qu&apos;effleurer la pointe de l&apos;iceberg, mais c&apos;est assez pour commencer les ventes d&egrave;s aujourd&apos;hui. Vous pouvez regarder la vid&eacute;o ci-dessous pour plus de d&eacute;tails.</p><p>Amusez-vous et bonne chance avec votre boutique&nbsp;! </p>]]></string>
 	<string name="error_version" introduced="5.2.3"><![CDATA[<strong>Avertissement&nbsp;:</strong> Cette boutique est en version %s, alors que votre base de donn&eacute;es est encore en version %s. Vous devez terminer la proc&eacute;dure de <a href="setup">mise &agrave; jour</a>.]]></string>
 	<string name="error_global_risk" introduced="5.0.0"><![CDATA[<strong>Avertissement&nbsp;:</strong> Le fichier includes/global.inc.php est accessible en &eacute;criture&nbsp;! Vous <strong>devez</strong> le passer en lecture seule. Sur les syst&egrave;mes Linux ou Unix, les permissions doivent &ecirc;tre positionn&eacute;es &agrave; 0444.]]></string>
 	<string name="error_mysql_root" introduced="5.0.0"><![CDATA[<strong>Avertissement&nbsp;:</strong> Vous &ecirc;tes actuellement connect&eacute; &agrave; la base de donn&eacute;es &agrave; l&apos;aide du compte <strong>root</strong>. Ceci n&apos;est pas s&eacute;curis&eacute; et doit &ecirc;tre modifi&eacute;.]]></string>
@@ -1047,6 +1052,10 @@
 	<string name="title_extension_updates" introduced="6.1.0"><![CDATA[Mises &agrave; jour d&apos;extensions]]></string>
   </group>
   <group name="documents">
+	<string name="hide_title" introduced="6.2.0"><![CDATA[Cacher le titre]]></string>
+	<string name="404_title" introduced="6.0.6"><![CDATA[404 - Page introuvable.]]></string>
+	<string name="404_content" introduced="6.0.6"><![CDATA[D&eacute;sol&eacute;, la page que vous recherchez est introuvable.]]></string>
+	<string name="smarty_parse" introduced="6.0.0"><![CDATA[Analyser les balises Smarty]]></string>
 	<string name="document_contact" introduced="5.0.0"><![CDATA[Nous contacter]]></string>
 	<string name="document_content" introduced="5.0.0"><![CDATA[Texte]]></string>
 	<string name="document_create" introduced="5.0.0"><![CDATA[Cr&eacute;er une page]]></string>
@@ -1054,6 +1063,7 @@
 	<string name="document_edit" introduced="5.0.0"><![CDATA[Modifier]]></string>
 	<string name="document_translate" introduced="5.0.0"><![CDATA[Traduire]]></string>
 	<string name="document_homepage" introduced="5.0.0"><![CDATA[Accueil]]></string>
+	<string name="document_privacy" introduced="6.2.1">><![CDATA[Confidentialit&eacute;]]></string>
 	<string name="document_terms" introduced="5.0.0"><![CDATA[CGV]]></string>
 	<string name="document_title" introduced="5.0.0"><![CDATA[Titre]]></string>
 	<string name="document_url" introduced="5.0.0"><![CDATA[URL]]></string>
@@ -1070,29 +1080,23 @@
 	<string name="notify_document_contact" introduced="5.0.0"><![CDATA[Merci pour votre message, nous y r&eacute;pondrons d&egrave;s que possible.]]></string>
 	<string name="notify_document_create" introduced="5.0.0"><![CDATA[Page cr&eacute;&eacute;e.]]></string>
 	<string name="notify_document_delete" introduced="5.0.0"><![CDATA[Page supprim&eacute;e.]]></string>
-	<string name="notify_document_homepage" introduced="5.0.0"><![CDATA[Page d&eacute;finie comme page d&apos;accueil.]]></string>
+	<string name="notify_document_home" introduced="5.0.0"><![CDATA[Page d&eacute;finie comme page d&apos;accueil.]]></string>
 	<string name="notify_document_status" introduced="5.0.0"><![CDATA[&Eacute;tat de la page mis &agrave; jour.]]></string>
 	<string name="notify_document_terms" introduced="5.0.0"><![CDATA[Page d&eacute;finie comme page de conditions g&eacute;n&eacute;rales de vente.]]></string>
+	<string name="notify_document_privacy" introduced="6.2.1"><![CDATA[Page d&eacute;finie comme page de confidentialit&eacute;.]]></string>
 	<string name="notify_document_update" introduced="5.0.0"><![CDATA[Page mise &agrave; jour.]]></string>
 	<string name="rating" introduced="5.0.0"><![CDATA[Classification]]></string>
 	<string name="send_message" introduced="5.0.0"><![CDATA[Envoyer un message]]></string>
 	<string name="tab_content" introduced="5.0.0"><![CDATA[Texte]]></string>
 	<string name="title_documents" introduced="5.0.0"><![CDATA[Pages du site]]></string>
-	<string name="404_content" introduced="6.0.6"><![CDATA[D&eacute;sol&eacute;, la page que vous recherchez est introuvable.]]></string>
-	<string name="404_title" introduced="6.0.6"><![CDATA[404 - Page introuvable.]]></string>
-	<string name="document_privacy" introduced="6.2.1">><![CDATA[Confidentialit&eacute;]]></string>
-	<string name="hide_title" introduced="6.2.0"><![CDATA[Cacher le titre]]></string>
-	<string name="notify_document_home" introduced="5.0.0"><![CDATA[Page d&eacute;finie comme page d&apos;accueil.]]></string>
-	<string name="notify_document_privacy" introduced="6.2.1"><![CDATA[Page d&eacute;finie comme page de confidentialit&eacute;.]]></string>
-	<string name="smarty_parse" introduced="6.0.0"><![CDATA[Analyser les balises Smarty]]></string>
   </group>
   <group name="email">
 	<string name="purge_list_clean" introduced="6.4.3"><![CDATA[Rien &agrave; faire. Votre liste semble correcte.]]></string>
-    <string name="purge_list_cleaned" introduced="6.4.3"><![CDATA[Adresses invalides supprim&eacute;es&nbsp;: %s, Domaines invalides supprim&eacute;s&nbsp;: %s.]]></string>
-    <string name="purge" introduced="6.4.3"><![CDATA[Nettoyer la liste de diffusion]]></string>
-    <string name="confirm_purge" introduced="6.4.3"><![CDATA[Le nettoyage consiste &agrave; supprimer les abonn&eacute;s dont l&apos;adresse email est invalide, ou dont le domaine n&apos;est pas configur&eacute; pour recevoir des emails (pas de champ MX). Voulez-vous continuer&nbsp;?]]></string>
-    <string name="macro_stream" introduced="6.4.0"><![CDATA[Est-ce un fichier ou un flux&nbsp;?]]></string>
-    <string name="install_master_lang" introduced="6.0.0"><![CDATA[Cette boutique ne parle actuellement qu&apos;une seul langue. Pour traduire un email dans une autre langue, le fichier de langue correspondant doit &ecirc;tre install&eacute; &agrave; partir de notre <a href="?_g=marketplace">centre de ressourcesmarke</a>.]]></string>
+	<string name="purge_list_cleaned" introduced="6.4.3"><![CDATA[Adresses invalides supprim&eacute;es&nbsp;: %s, Domaines invalides supprim&eacute;s&nbsp;: %s.]]></string>
+	<string name="purge" introduced="6.4.3"><![CDATA[Nettoyer la liste de diffusion]]></string>
+	<string name="confirm_purge" introduced="6.4.3"><![CDATA[Le nettoyage consiste &agrave; supprimer les abonn&eacute;s dont l&apos;adresse email est invalide, ou dont le domaine n&apos;est pas configur&eacute; pour recevoir des emails (pas de champ MX). Voulez-vous continuer&nbsp;?]]></string>
+	<string name="macro_stream" introduced="6.4.0"><![CDATA[Est-ce un fichier ou un flux&nbsp;?]]></string>
+	<string name="install_master_lang" introduced="6.0.0"><![CDATA[Cette boutique ne parle actuellement qu&apos;une seul langue. Pour traduire un email dans une autre langue, le fichier de langue correspondant doit &ecirc;tre install&eacute; &agrave; partir de notre <a href="?_g=marketplace">centre de ressourcesmarke</a>.]]></string>
 	<string name="confirm_cancel" introduced="5.0.0"><![CDATA[Voulez-vous vraiment arr&ecirc;ter l&apos;envoi de cette lettre d&apos;information&nbsp;?]]></string>
 	<string name="confirm_send" introduced="5.0.0"><![CDATA[Voulez-vous vraiment envoyer cette lettre d&apos;information&nbsp;?]]></string>
 	<string name="email_macro" introduced="5.0.0"><![CDATA[Macro]]></string>
@@ -1147,7 +1151,7 @@
 	<string name="macro_product_code" introduced="5.0.0"><![CDATA[Code article.]]></string>
 	<string name="macro_product_name" introduced="5.0.0"><![CDATA[Nom de l&apos;article.]]></string>
 	<string name="macro_product_options" introduced="6.2.1"><![CDATA[Options de l&apos;article]]></string>
-    <string name="macro_product_price" introduced="5.0.0"><![CDATA[Prix de l&apos;article.]]></string>
+	<string name="macro_product_price" introduced="5.0.0"><![CDATA[Prix de l&apos;article.]]></string>
 	<string name="macro_product_quantity" introduced="5.0.0"><![CDATA[Nombre d&apos;articles]]></string>
 	<string name="macro_review_copy" introduced="5.0.0"><![CDATA[Texte de l&apos;avis.]]></string>
 	<string name="macro_review_name" introduced="5.0.0"><![CDATA[Nom de l&apos;&eacute;valuateur.]]></string>
@@ -1175,7 +1179,7 @@
 	<string name="macro_postcode_d" introduced="5.0.0"><![CDATA[Code postal de l&apos;adresse de livraison]]></string>
 	<string name="macro_country_d" introduced="5.0.0"><![CDATA[Pays de l&apos;adresse de livraison]]></string>
 	<string name="macro_w3w_d" introduced="6.4.0"><![CDATA[What3words de l&apos;adresse de livraison]]></string>
-    <string name="macro_first_name" introduced="5.0.0"><![CDATA[Pr&eacute;nom du destinataire de l&apos;adresse de facturation]]></string>
+	<string name="macro_first_name" introduced="5.0.0"><![CDATA[Pr&eacute;nom du destinataire de l&apos;adresse de facturation]]></string>
 	<string name="macro_last_name" introduced="5.0.0"><![CDATA[Nom du destinataire de l&apos;adresse de facturation]]></string>
 	<string name="macro_company_name" introduced="5.0.0"><![CDATA[Nom de soci&eacute;t&eacute; de l&apos;adresse de facturation]]></string>
 	<string name="macro_line1" introduced="5.0.0"><![CDATA[Adresse de facturation ligne 1]]></string>
@@ -1185,7 +1189,7 @@
 	<string name="macro_postcode" introduced="5.0.0"><![CDATA[Code postal de l&apos;adresse de facturation]]></string>
 	<string name="macro_country" introduced="5.0.0"><![CDATA[Pays de l&apos;adresse de facturation]]></string>
 	<string name="macro_w3w" introduced="6.4.0"><![CDATA[What3words de l&apos;adresse de facturation]]></string>
-    <string name="macro_phone" introduced="5.0.0"><![CDATA[T&eacute;l&eacute;phone de l&apos;adresse de facturation]]></string>
+	<string name="macro_phone" introduced="5.0.0"><![CDATA[T&eacute;l&eacute;phone de l&apos;adresse de facturation]]></string>
 	<string name="macro_email" introduced="5.0.0"><![CDATA[Email de facturation]]></string>
 	<string name="news_cancel" introduced="5.0.0"><![CDATA[Annuler l&apos;envoi]]></string>
 	<string name="news_none" introduced="5.0.0"><![CDATA[Aucune lettre d&apos;information n&apos;a &eacute;t&eacute; cr&eacute;&eacute;e.]]></string>
@@ -1262,26 +1266,40 @@
 	<string name="title_macro_user_newsletter" introduced="6.1.0"><![CDATA[Utilisateur&nbsp;: V&eacute;rifier l&apos;inscription &agrave; la lettre d&apos;information]]></string>
   </group>
   <group name="filemanager">
+	<string name="click_to_select" introduced="6.4.10"><![CDATA[Cliquez to s&eacute;lectionner ou pour modifier]]></string>
+	<string name="parent_directory" introduced="6.4.10"><![CDATA[R&eacute;pertoire parent]]></string>
+	<string name="how_to_select" introduced="6.4.10"><![CDATA[S&eacute;lectionnez l&apos;article que vous voulez ins&eacute;rer dans votre document en utilisant le bouton <i class="fa fa-plus-circle" title="Ajouter"></i>.]]></string>
 	<string name="error_file_not_changed" introduced="6.4.8"><![CDATA[Impossible de mettre &agrave; jour le fichier.]]></string>
-    <string name="notice_file_updated" introduced="6.4.8"><![CDATA[Fichier mis &agrave; jour.]]></string>
-    <string name="alt" introduced="6.4.8"><![CDATA[Texte de substitution]]></string>
-    <string name="media_expired" introduced="6.4.2"><![CDATA[D&eacute;sol&eacute;, ce lien a expir&eacute;, ou le fichier n&apos;existe plus.]]></string>
-    <string name="stream" introduced="6.4.0"><![CDATA[Flux]]></string>
-    <string name="title" introduced="6.4.0"><![CDATA[Titre]]></string>
-    <string name="search_location" introduced="6.4.0"><![CDATA[Recherche d&apos;images]]></string>
-    <string name="min_three_char" introduced="6.4.0"><![CDATA[Entrez au minimum trois caract&egrave;res.]]></string>
-    <string name="search_result" introduced="6.4.0"><![CDATA[R&eacute;sultats de la recherche de &laquo;&nbsp;%s&nbsp;&raquo;]]></string>
-    <string name="error_dl_1" introduced="5.0.0"><![CDATA[Ce t&eacute;l&eacute;chargement a expir&eacute;.]]></string>
+	<string name="notice_file_updated" introduced="6.4.8"><![CDATA[Fichier mis &agrave; jour.]]></string>
+	<string name="alt" introduced="6.4.8"><![CDATA[Texte de substitution]]></string>
+	<string name="media_expired" introduced="6.4.2"><![CDATA[D&eacute;sol&eacute;, ce lien a expir&eacute;, ou le fichier n&apos;existe plus.]]></string>
+	<string name="stream" introduced="6.4.0"><![CDATA[Flux]]></string>
+	<string name="title" introduced="6.4.0"><![CDATA[Titre]]></string>
+	<string name="search_location" introduced="6.4.0"><![CDATA[Recherche d&apos;images]]></string>
+	<string name="min_three_char" introduced="6.4.0"><![CDATA[Entrez au minimum trois caract&egrave;res.]]></string>
+	<string name="search_result" introduced="6.4.0"><![CDATA[R&eacute;sultats de la recherche de &laquo;&nbsp;%s&nbsp;&raquo;]]></string>
+	<string name="public" introduced="6.1.6"><![CDATA[Les fichiers d&eacute;pos&eacute;s dans le r&eacute;pertoire files/public sont directement accessibles depuis un navigateur. Tous les autres r&eacute;pertoires sont prot&eacute;g&eacute;s, afin de pouvoir vendre les fichiers comme du contenu num&eacute;rique.]]></string>
+	<string name="upload_destination" introduced="6.1.2"><![CDATA[R&eacute;pertoire de destination]]></string>
+	<string name="refresh_files" introduced="6.1.2"><![CDATA[Actualiser la liste des fichiers]]></string>
+	<string name="show_assigned" introduced="6.1.2"><![CDATA[Montrer uniquement les images attribu&eacute;es]]></string>
+	<string name="show_all" introduced="6.1.2"><![CDATA[Montrer toutes les images]]></string>
+	<!-- doublon <string name="upload_destination" introduced="6.1.2"><![CDATA[R&eacute;pertoire de destination]]></string> -->
+	<string name="max_upload_diff" introduced="6.1.0"><![CDATA[Notez que la configuration du serveur autorise une taille totale de %s maximum, et une taille maximale de %s par fichier.]]></string>
+	<string name="max_upload_same" introduced="6.1.0"><![CDATA[<strong>Taille maximale&nbsp;:</strong> %s]]></string>
+	<string name="success_create_folder" introduced="6.1.0"><![CDATA[Le r&eacute;pertoire a &eacute;t&eacute; cr&eacute;&eacute;.]]></string>
+	<string name="error_create_folder" introduced="6.1.0"><![CDATA[Impossible de cr&eacute;er le r&eacute;pertoire.]]></string>
+	<string name="error_dl_1" introduced="5.0.0"><![CDATA[Ce t&eacute;l&eacute;chargement a expir&eacute;.]]></string>
 	<string name="error_dl_2" introduced="5.0.0"><![CDATA[Vous avez t&eacute;l&eacute;charg&eacute; ce fichier le nombre de fois maximum autoris&eacute;.]]></string>
 	<string name="error_dl_3" introduced="5.2.9"><![CDATA[Impossible de retrouver le fichier.]]></string>
 	<string name="error_dl_4" introduced="5.2.9"><![CDATA[Article introuvable ou supprim&eacute;.]]></string>
 	<string name="error_dl_5" introduced="5.2.9"><![CDATA[Aucun enregistrement trouv&eacute; pour ce t&eacute;l&eacute;chargement.]]></string>
 	<string name="error_dl_6" introduced="5.0.0"><![CDATA[Le paiement doit &ecirc;tre effectu&eacute; avant que le fichier soit t&eacute;l&eacute;charg&eacute;.]]></string>
+	<string name="error_file_delete" introduced="5.0.0"><![CDATA[Impossible de supprimer le fichier.]]></string>
 	<string name="error_files_delete" introduced="6.1.10"><![CDATA[Impossible de supprimer les fichiers.]]></string>
-    <string name="error_file_delete" introduced="5.0.0"><![CDATA[Impossible de supprimer le fichier.]]></string>
 	<string name="error_file_moved" introduced="5.0.0"><![CDATA[Impossible de renommer/d&eacute;placer le fichier.]]></string>
 	<string name="error_file_update" introduced="5.0.0"><![CDATA[Impossible de mettre &agrave; jour le fichier.]]></string>
 	<string name="error_file_upload" introduced="5.0.0"><![CDATA[&Eacute;chec de chargement du fichier.]]></string>
+	<string name="error_file_upload_size" introduced="5.2.6"><![CDATA[%s d&eacute;passe la taille maximale de %s. Utilisez des images optimis&eacute;es pour le web.]]></string>
 	<string name="error_image_missing" introduced="5.0.0"><![CDATA[Cette image n&apos;existe plus. Toutes les r&eacute;f&eacute;rences ont &eacute;t&eacute; retir&eacute;es.]]></string>
 	<string name="error_image_update" introduced="5.0.0"><![CDATA[Impossible de modifier l&apos;image.]]></string>
 	<string name="error_list_update" introduced="5.0.0"><![CDATA[Impossible de mettre &agrave; jour la liste de fichiers.]]></string>
@@ -1292,11 +1310,12 @@
 	<string name="file_type_image" introduced="5.0.0"><![CDATA[Image]]></string>
 	<string name="file_upload" introduced="5.0.0"><![CDATA[Fichier &agrave; importer]]></string>
 	<string name="file_upload_note" introduced="5.2.6"><![CDATA[Faites glisser les images ici<br>ou<br> <span class="button">S&eacute;lectionner</span><br>Taille maximale de chaque image&nbsp;: 350 Ko</span>]]></string>
+	<string name="file_upload_max_size" introduced="6.1.2"><![CDATA[Taille maximale&nbsp;: 350 Ko]]></string>
 	<string name="folder_create" introduced="5.0.0"><![CDATA[Cr&eacute;er dossier]]></string>
 	<string name="notify_db_update" introduced="5.0.0"><![CDATA[Base de donn&eacute;es du gestionnaire de fichiers reconstruite.]]></string>
 	<string name="notify_file_delete" introduced="5.0.0"><![CDATA[Fichier supprim&eacute;.]]></string>
 	<string name="notify_files_delete" introduced="6.4.0"><![CDATA[Fichiers supprim&eacute;s.]]></string>
-    <string name="notify_file_upload" introduced="5.0.0"><![CDATA[Fichier(s) charg&eacute;(s).]]></string>
+	<string name="notify_file_upload" introduced="5.0.0"><![CDATA[Fichier(s) charg&eacute;(s).]]></string>
 	<string name="notify_files_upload" introduced="6.0.0"><![CDATA[Fichiers import&eacute;s.]]></string>
 	<string name="notify_image_update" introduced="5.0.0"><![CDATA[Image modifi&eacute;e.]]></string>
 	<string name="notify_list_update" introduced="5.0.0"><![CDATA[Liste de fichiers mise &agrave; jour.]]></string>
@@ -1306,17 +1325,6 @@
 	<string name="tab_rebuild" introduced="5.0.0"><![CDATA[Mettre &agrave; jour la liste de fichiers]]></string>
 	<string name="title_file_edit" introduced="5.0.0"><![CDATA[Modifier fichier]]></string>
 	<string name="title_image_crop" introduced="5.0.0"><![CDATA[Rogner l&apos;image]]></string>
-	<string name="error_create_folder" introduced="6.1.0"><![CDATA[Impossible de cr&eacute;er le r&eacute;pertoire.]]></string>
-	<string name="error_file_upload_size" introduced="5.2.6"><![CDATA[%s d&eacute;passe la taille maximale de %s. Utilisez des images optimis&eacute;es pour le web.]]></string>
-	<string name="file_upload_max_size" introduced="6.1.2"><![CDATA[Taille maximale&nbsp;: 350 Ko]]></string>
-	<string name="max_upload_diff" introduced="6.1.0"><![CDATA[Notez que la configuration du serveur autorise une taille totale de %s maximum, et une taille maximale de %s par fichier.]]></string>
-	<string name="max_upload_same" introduced="6.1.0"><![CDATA[<strong>Taille maximale&nbsp;:</strong> %s]]></string>
-	<string name="public" introduced="6.1.6"><![CDATA[Les fichiers d&eacute;pos&eacute;s dans le r&eacute;pertoire files/public sont directement accessibles depuis un navigateur. Tous les autres r&eacute;pertoires sont prot&eacute;g&eacute;s, afin de pouvoir vendre les fichiers comme du contenu num&eacute;rique.]]></string>
-	<string name="refresh_files" introduced="6.1.2"><![CDATA[Actualiser la liste des fichiers]]></string>
-	<string name="show_all" introduced="6.1.2"><![CDATA[Montrer toutes les images]]></string>
-	<string name="show_assigned" introduced="6.1.2"><![CDATA[Montrer uniquement les images attribu&eacute;es]]></string>
-	<string name="success_create_folder" introduced="6.1.0"><![CDATA[Le r&eacute;pertoire a &eacute;t&eacute; cr&eacute;&eacute;.]]></string>
-	<string name="upload_destination" introduced="6.1.2"><![CDATA[R&eacute;pertoire de destination]]></string>
   </group>
   <group name="form">
 	<string name="required" introduced="6.0.0"><![CDATA[(Obligatoire)]]></string>
@@ -1396,7 +1404,7 @@
 	<string name="notify_hook_update" introduced="5.0.0"><![CDATA[Le script a &eacute;t&eacute; mis &agrave; jour.]]></string>
 	<string name="path_to_file" introduced="5.0.0"><![CDATA[Chemin vers fichier]]></string>
 	<string name="path_to_file_desc" introduced="6.1.14"><![CDATA[Fichier par d&eacute;faut&nbsp;: %s]]></string>
-    <string name="title_hook" introduced="5.0.0"><![CDATA[Scripts]]></string>
+	<string name="title_hook" introduced="5.0.0"><![CDATA[Scripts]]></string>
 	<string name="title_hook_add" introduced="5.0.0"><![CDATA[Ajouter un script]]></string>
 	<string name="title_hook_available" introduced="5.0.0"><![CDATA[Scripts disponibles]]></string>
 	<string name="title_hook_configure" introduced="5.0.0"><![CDATA[Configurer le script]]></string>
@@ -1429,7 +1437,7 @@
   </group>
   <group name="maintain">
 	<string name="auto_upgrade_disabled" introduced="6.4.2"><![CDATA[Cette fonctionnalit&eacute; a &eacute;t&eacute; d&eacute;sactiv&eacute;e, afin d&apos;&eacute;viter l&apos;&eacute;crasement de des personnalisations. Contactez <a href="mailto:{$EMAIL}">{$EMAIL}</a> pour plus de d&eacute;tails.]]></string>
-    <string name="truncate_seo_custom" introduced="6.0.0"><![CDATA[R&eacute;initialiser les liens de r&eacute;f&eacute;rencement personnalis&eacute;s.]]></string>
+	<string name="truncate_seo_custom" introduced="6.0.0"><![CDATA[R&eacute;initialiser les liens de r&eacute;f&eacute;rencement personnalis&eacute;s.]]></string>
 	<string name="truncate_seo_auto" introduced="6.0.0"><![CDATA[R&eacute;initialiser les liens de r&eacute;f&eacute;rencement auto-g&eacute;n&eacute;r&eacute;s.]]></string>
 	<string name="truncate_seo_warning" introduced="6.0.0"><![CDATA[<strong>Avertissement&nbsp;:</strong> cette op&eacute;ration est irr&eacute;versible&nbsp;!]]></string>
 	<string name="seo_urls_emptied" introduced="6.0.0"><![CDATA[Les liens de r&eacute;f&eacute;rencement optimis&eacute; ont &eacute;t&eacute; r&eacute;initialis&eacute;s.]]></string>
@@ -1530,9 +1538,9 @@
 	<string name="cookie_consent_cleared" introduced="6.2.7"><![CDATA[Le journal des consentements aux cookies a &eacute;t&eacute; vid&eacute;.]]></string>
 	<string name="cookie_consent_not_cleared" introduced="6.2.7"><![CDATA[Le journal des consentements aux cookies n&apos;a pas &eacute;t&eacute; vid&eacute;.]]></string>
 	<string name="clear_sessions" introduced="6.4.0"><![CDATA[Vider toutes les donn&eacute;es de session]]></string>
-    <string name="sessions_cleared" introduced="6.4.0"><![CDATA[Les donn&eacute;es de session ont &eacute;t&eacute; vid&eacute;es.]]></string>
-    <string name="sessions_not_cleared" introduced="6.4.0"><![CDATA[Impossible de vider les donn&eacute;es de session.]]></string>
-    <string name="db_compress_fail" introduced="6.1.0"><![CDATA[Il n&apos;a pas &eacute;t&eacute; possible de compresser la sauvegarde de la base de donn&eacute;es. Le fichier joint est donc une sauvegarde non compress&eacute;e.]]></string>
+	<string name="sessions_cleared" introduced="6.4.0"><![CDATA[Les donn&eacute;es de session ont &eacute;t&eacute; vid&eacute;es.]]></string>
+	<string name="sessions_not_cleared" introduced="6.4.0"><![CDATA[Impossible de vider les donn&eacute;es de session.]]></string>
+	<string name="db_compress_fail" introduced="6.1.0"><![CDATA[Il n&apos;a pas &eacute;t&eacute; possible de compresser la sauvegarde de la base de donn&eacute;es. Le fichier joint est donc une sauvegarde non compress&eacute;e.]]></string>
 	<string name="duplicate_index" introduced="6.1.6"><![CDATA[%s a des index %s en double. Les doublons doivent &ecirc;tre supprim&eacute;s.]]></string>
 	<string name="error_logs_email" introduced="6.1.0"><![CDATA[Le journal d&apos;envois de mails n&apos;a pas &eacute;t&eacute; vid&eacute;.]]></string>
 	<string name="error_search_clear" introduced="6.0.8"><![CDATA[Le journal de recherches n&apos;a pas &eacute;t&eacute; vid&eacute;.]]></string>
@@ -1714,10 +1722,10 @@
   </group>
   <group name="notification">
 	<string name="notify_success_add_redirect" introduced="6.4.0"><![CDATA[Redirection ajout&eacute;e.]]></string>
-    <string name="notify_fail_add_redirect" introduced="6.4.0"><![CDATA[Impossible d&apos;ajouter la redirection. V&eacute;rifiez qu&apos;elle n&apos;est pas d&eacute;j&agrave; active.]]></string>
-    <string name="notify_object_not_found" introduced="6.4.0"><![CDATA[Article, cat&eacute;gorie ou document introuvable.]]></string>
-    <string name="confirm_delete_folder" introduced="6.4.0"><![CDATA[Voulez-vous vraiment supprimer le dossier &laquo;&nbsp;%s&nbsp;&raquo;&nbsp;?\n\n<strong>Avertissement&nbsp;:</strong> Tous les fichiers pr&eacute;sents dans ce dossier seront supprim&eacute;s d&eacute;finitivement&nbsp;!]]></string>
-    <string name="confirm_cancel" introduced="5.2.8"><![CDATA[Voulez-vous vraiment annuler&nbsp;?]]></string>
+	<string name="notify_fail_add_redirect" introduced="6.4.0"><![CDATA[Impossible d&apos;ajouter la redirection. V&eacute;rifiez qu&apos;elle n&apos;est pas d&eacute;j&agrave; active.]]></string>
+	<string name="notify_object_not_found" introduced="6.4.0"><![CDATA[Article, cat&eacute;gorie ou document introuvable.]]></string>
+	<string name="confirm_delete_folder" introduced="6.4.0"><![CDATA[Voulez-vous vraiment supprimer le dossier &laquo;&nbsp;%s&nbsp;&raquo;&nbsp;?\n\n<strong>Avertissement&nbsp;:</strong> Tous les fichiers pr&eacute;sents dans ce dossier seront supprim&eacute;s d&eacute;finitivement&nbsp;!]]></string>
+	<string name="confirm_cancel" introduced="5.2.8"><![CDATA[Voulez-vous vraiment annuler&nbsp;?]]></string>
 	<string name="cookie_dialogue" introduced="5.0.0"><![CDATA[&laquo;&nbsp;%s&nbsp;&raquo; veut placer des cookies sur votre ordinateur pour assurer le bon fonctionnement de ce service.]]></string>
 	<string name="cookie_dialogue_declaration" introduced="5.0.0"><![CDATA[J&apos;accepte les cookies de ce site.]]></string>
 	<string name="confirm_delete" introduced="5.0.0"><![CDATA[Voulez-vous vraiment supprimer&nbsp;?]]></string>
@@ -1739,18 +1747,18 @@
 	<string name="confirm_delete_product" introduced="6.1.2"><![CDATA[<strong>Avertissement&nbsp;:</strong> vous &ecirc;tes sur le point de supprimer &laquo;&nbsp;%s&nbsp;&raquo;. Voulez-vous vraiment supprimer cet article&nbsp;?]]></string>
 	<string name="confirm_restore" introduced="5.0.0"><![CDATA[Voulez-vous vraiment restaurer&nbsp;?]]></string>
 	<string name="cookie_switch" introduced="6.2.1"><![CDATA[Gestion des cookies]]></string>
-    <string name="cookies_accepted" introduced="6.2.1"><![CDATA[Tous les cookies sont accept&eacute;s.]]></string>
+	<string name="cookies_accepted" introduced="6.2.1"><![CDATA[Tous les cookies sont accept&eacute;s.]]></string>
 	<string name="cookies_blocked" introduced="6.2.1"><![CDATA[Les cookies facultatifs sont bloqu&eacute;s.]]></string>
   </group>
   <group name="order_state">
 	<string name="initiator_" introduced="6.1.13"><![CDATA[Non fourni]]></string>
-    <string name="initiator_U" introduced="6.1.13"><![CDATA[Inconnu]]></string>
-    <string name="initiator_C" introduced="6.1.13"><![CDATA[Client]]></string>
-    <string name="initiator_G" introduced="6.1.13"><![CDATA[Passerelle]]></string>
-    <string name="initiator_S" introduced="6.1.13"><![CDATA[Support]]></string>
-    <string name="initiator_E" introduced="6.1.13"><![CDATA[Expir&eacute;]]></string>
-    <string name="initiator_F" introduced="6.1.13"><![CDATA[Invalide]]></string>
-    <string name="desc_1" introduced="5.0.0"><![CDATA[La commande a &eacute;t&eacute; cr&eacute;&eacute;e et nous attendons le paiement avant d&apos;entreprendre toute autre action. Cette commande peut &ecirc;tre automatiquement annul&eacute;e si le paiement n&apos;a pas &eacute;t&eacute; effectu&eacute; dans un d&eacute;lai d&eacute;termin&eacute;.]]></string>
+	<string name="initiator_U" introduced="6.1.13"><![CDATA[Inconnu]]></string>
+	<string name="initiator_C" introduced="6.1.13"><![CDATA[Client]]></string>
+	<string name="initiator_G" introduced="6.1.13"><![CDATA[Passerelle]]></string>
+	<string name="initiator_S" introduced="6.1.13"><![CDATA[Support]]></string>
+	<string name="initiator_E" introduced="6.1.13"><![CDATA[Expir&eacute;]]></string>
+	<string name="initiator_F" introduced="6.1.13"><![CDATA[Invalide]]></string>
+	<string name="desc_1" introduced="5.0.0"><![CDATA[La commande a &eacute;t&eacute; cr&eacute;&eacute;e et nous attendons le paiement avant d&apos;entreprendre toute autre action. Cette commande peut &ecirc;tre automatiquement annul&eacute;e si le paiement n&apos;a pas &eacute;t&eacute; effectu&eacute; dans un d&eacute;lai d&eacute;termin&eacute;.]]></string>
 	<string name="desc_2" introduced="5.0.0"><![CDATA[Le paiement peut avoir &eacute;t&eacute; encaiss&eacute; ou non ou la commande n&apos;a pas encore &eacute;t&eacute; trait&eacute;e.]]></string>
 	<string name="desc_3" introduced="5.0.0"><![CDATA[La commande a &eacute;t&eacute; pay&eacute;e et exp&eacute;di&eacute;e. Les marchandises devraient arriver sous peu. Les informations relatives au suivi peuvent &ecirc;tre disponibles.]]></string>
 	<string name="desc_4" introduced="5.0.0"><![CDATA[La commande a &eacute;t&eacute; refus&eacute;e. Davantage d&apos;informations peuvent &ecirc;tre disponibles dans les remarques relatives &agrave; la commande.]]></string>
@@ -1765,7 +1773,7 @@
   </group>
   <group name="orders">
 	<string name="skip_email_notification" introduced="6.4.6"><![CDATA[Ne pas envoyer de notifications par email lors d&apos;un changement d&apos;&eacute;tat]]></string>
-    <string name="order_not_found" introduced="6.0.0"><![CDATA[Impossible de trouver la commande n° %s.]]></string>
+	<string name="order_not_found" introduced="6.0.0"><![CDATA[Impossible de trouver la commande n° %s.]]></string>
 	<string name="cancel_by_customer" introduced="5.2.13"><![CDATA[Commande annul&eacute;e par le client.]]></string>
 	<string name="card_card_cvv" introduced="5.0.0"><![CDATA[Code de s&eacute;curit&eacute;]]></string>
 	<string name="card_card_details" introduced="5.0.0"><![CDATA[D&eacute;tails de la carte de cr&eacute;dit]]></string>
@@ -1860,10 +1868,10 @@
 	<string name="expired_basket" introduced="6.1.9"><![CDATA[D&eacute;sol&eacute;, votre panier a expir&eacute;.]]></string>
 	<string name="id_incremental" introduced="6.2.0"><![CDATA[Incr&eacute;mental (1, 2, 3, etc.)]]></string>
 	<string name="id_mode" introduced="6.2.0"><![CDATA[Format du num&eacute;ro de commande]]></string>
-	<string name="id_traditional" introduced="6.2.0"><![CDATA[Traditionnel (ex&nbsp;: YYMMDD-HHMMSS-1234)]]></string>
+	<string name="id_traditional" introduced="6.2.0"><![CDATA[Traditionnel (e.g. YYMMDD-HHMMSS-1234)]]></string>
 	<string name="invoice_editor" introduced="6.2.0"><![CDATA[&Eacute;diteur de factures]]></string>
 	<string name="date_specifiers" introduced="6.2.0"><![CDATA[<a href="https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html#function_date-format" target="_blank">Formats de date</a> autoris&eacute;s.]]></string>
-    <string name="oid_force" introduced="6.2.0"><![CDATA[Appliquer le formatage &agrave; toutes les commandes pass&eacute;es.]]></string>
+	<string name="oid_force" introduced="6.2.0"><![CDATA[Appliquer le formatage &agrave; toutes les commandes pass&eacute;es.]]></string>
 	<string name="oid_force_desc" introduced="6.2.0"><![CDATA[Note&nbsp;: prend effet apr&egrave;s la sauvegarde. <strong>Avertissement&nbsp;:</strong> cette op&eacute;ration est irr&eacute;versible&nbsp;!]]></string>
 	<string name="oid_postfix" introduced="6.2.0"><![CDATA[Suffixe du num&eacute;ro de commande]]></string>
 	<string name="oid_postfix_desc" introduced="6.2.0"><![CDATA[Note&nbsp;: une valeur du genre XYZ pour la commande 1 donnera &laquo;&nbsp;1XYZ&nbsp;&raquo;.]]></string>
@@ -1922,38 +1930,41 @@
 	<string name="title_gdpr_report" introduced="6.2.0"><![CDATA[Rapport RGPD]]></string>
   </group>
   <group name="settings">
+	<string name="size_unit" introduced="6.4.10"><![CDATA[Unit&eacute; de taille par d&eacute;faut]]></string>
+	<string name="subcategories_of" introduced="6.4.10"><![CDATA[Sous-Cat&eacute;gories de %s]]></string>
+	<string name="return_parent_category" introduced="6.4.10"><![CDATA[Retour &agrave; la cat&eacute;gorie parente]]></string>
 	<string name="item_id" introduced="6.4.8"><![CDATA[ID article]]></string>
-    <string name="redirect_from" introduced="6.4.8"><![CDATA[Domaine source]]></string>
-    <string name="redirect_to" introduced="6.4.8"><![CDATA[Domaine de destination]]></string>
-    <string name="domain_doc_root" introduced="6.4.8"><![CDATA[Les sous-domaines doivent &ecirc;tre cr&eacute;&eacute;s et correctement param&eacute;tr&eacute;s chez votre h&eacute;bergeur web. Tous les sous-domaines doivent avoir le m&ecirc;me chemin racine.]]></string>
-    <string name="tab_cron" introduced="6.4.8"><![CDATA[T&acirc;ches planifi&eacute;es]]></string>
-    <string name="title_cron" introduced="6.4.8"><![CDATA[Actions disponibles]]></string>
-    <string name="cron_currency" introduced="6.4.8"><![CDATA[Mise à jour des taux de change]]></string>
-    <string name="cron_desc" introduced="6.4.8"><![CDATA[Utilisez les t&acirc;ches planifi&eacute;es (ou cron jobs) pour lancer automatiquement des actions pr&eacute;configur&eacute;es ou personnelles. Contactez le support de votre h&eacute;bergeur web si vous ne savez pas comment activer les t&acirc;ches planifi&eacute;es.]]></string>
-    <string name="cron_cache" introduced="6.4.8"><![CDATA[Vider le cache]]></string>
-    <string name="cron_snippet" introduced="6.4.8"><![CDATA[Morceau de code personnel]]></string>
-    <string name="scheduled_snippet" introduced="6.4.8"><![CDATA[Lance un ou plusieurs <a href="?_g=settings&node=hooks#snippets">morceau(x) de code</a> dont le d&eacute;clencheur est &quot;cron&quot;.]]></string>
-    <string name="clone_settings" introduced="6.4.6"><![CDATA[Configurez ce que vous voulez ou ne voulez pas copier avant la premi&egrave;re duplication.]]></string>
-    <string name="emailconf" introduced="6.4.5"><![CDATA[Forcer la confirmation de l&apos;adresse email (deux champs)]]></string>
-    <string name="redirects" introduced="6.4.0"><![CDATA[Redirections]]></string>
-    <string name="image_delete" introduced="6.4.0"><![CDATA[Supprimer les images associ&eacute;es &agrave; l&apos;article supprim&eacute;]]></string>
-    <string name="w3w_na" introduced="6.4.0"><![CDATA[<strong>Avertissement&nbsp;:</strong> Il semblerait que l&apos;apparence actuelle est compatible avec whats3words.]]></string>
-    <string name="error_notice_desc" introduced="6.4.0"><![CDATA[Notification - Ce type d&apos;erreur a peu de chances de poser des probl&egrave;mes de fonctionnment ou de contrevenir aux bonnes pratiques. Vous n&apos;avez rien &agrave; faire.]]></string>
-    <string name="error_warning_desc" introduced="6.4.0"><![CDATA[Avertissement - Ce type d&apos;erreur a peu de chances de poser des probl&egrave;mes de fonctionnment, mais il y a un probl&egrave;me, qui pourrait en causer de plus graves par la suite. Vous devriez les corriger.]]></string>
-    <string name="error_parse_desc" introduced="6.4.0"><![CDATA[Erreur de syntaxe - Ce type d&apos;erreur est caus&eacute; par des symboles absents ou mal utilis&eacute;s. Vous devez les corriger.]]></string>
-    <string name="error_fatal_desc" introduced="6.4.0"><![CDATA[Erreur fatale - Ce type d&apos;erreur est consid&eacute;r&eacute; comme critique. Vous <strong>devez</strong> les corriger.]]></string>
-    <string name="error_exception_desc" introduced="6.4.0"><![CDATA[Exception - Ce type d&apos;erreur est consid&eacute;r&eacute; comme critique. Vous <strong>devez</strong> les corriger.]]></string>
-    <string name="error_general_desc" introduced="6.4.0"><![CDATA[Note&nbsp;: les notifications et les avertissements ne seront journalis&eacute;s que si le <a href="?_g=settings#Advanced_Settings">mode debug</a> est activ&eacute;.]]></string>
-    <string name="w3w_status" introduced="6.4.0"><![CDATA[Activer]]></string>
-    <string name="sendgrid_key" introduced="6.4.0"><![CDATA[Clef API SendGrid API]]></string>
-    <string name="dbl_opt" introduced="6.2.0"><![CDATA[Double consentement marketing]]></string>
-    <string name="social_accounts" introduced="6.0.0"><![CDATA[R&eacute;seaux sociaux (nom d&apos;utilisateur ou URL)]]></string>
+	<string name="redirect_from" introduced="6.4.8"><![CDATA[Domaine source]]></string>
+	<string name="redirect_to" introduced="6.4.8"><![CDATA[Domaine de destination]]></string>
+	<string name="domain_doc_root" introduced="6.4.8"><![CDATA[Les sous-domaines doivent &ecirc;tre cr&eacute;&eacute;s et correctement param&eacute;tr&eacute;s chez votre h&eacute;bergeur web. Tous les sous-domaines doivent avoir le m&ecirc;me chemin racine.]]></string>
+	<string name="tab_cron" introduced="6.4.8"><![CDATA[T&acirc;ches planifi&eacute;es]]></string>
+	<string name="title_cron" introduced="6.4.8"><![CDATA[Actions disponibles]]></string>
+	<string name="cron_currency" introduced="6.4.8"><![CDATA[Mise à jour des taux de change]]></string>
+	<string name="cron_desc" introduced="6.4.8"><![CDATA[Utilisez les t&acirc;ches planifi&eacute;es (ou cron jobs) pour lancer automatiquement des actions pr&eacute;configur&eacute;es ou personnelles. Contactez le support de votre h&eacute;bergeur web si vous ne savez pas comment activer les t&acirc;ches planifi&eacute;es.]]></string>
+	<string name="cron_cache" introduced="6.4.8"><![CDATA[Vider le cache]]></string>
+	<string name="cron_snippet" introduced="6.4.8"><![CDATA[Morceau de code personnel]]></string>
+	<string name="scheduled_snippet" introduced="6.4.8"><![CDATA[Lance un ou plusieurs <a href="?_g=settings&node=hooks#snippets">morceau(x) de code</a> dont le d&eacute;clencheur est &quot;cron&quot;.]]></string>
+	<string name="clone_settings" introduced="6.4.6"><![CDATA[Configurez ce que vous voulez ou ne voulez pas copier avant la premi&egrave;re duplication.]]></string>
+	<string name="emailconf" introduced="6.4.5"><![CDATA[Forcer la confirmation de l&apos;adresse email (deux champs)]]></string>
+	<string name="redirects" introduced="6.4.0"><![CDATA[Redirections]]></string>
+	<string name="image_delete" introduced="6.4.0"><![CDATA[Supprimer les images associ&eacute;es &agrave; l&apos;article supprim&eacute;]]></string>
+	<string name="w3w_na" introduced="6.4.0"><![CDATA[<strong>Avertissement&nbsp;:</strong> Il semblerait que l&apos;apparence actuelle est compatible avec whats3words.]]></string>
+	<string name="error_notice_desc" introduced="6.4.0"><![CDATA[Notification - Ce type d&apos;erreur a peu de chances de poser des probl&egrave;mes de fonctionnment ou de contrevenir aux bonnes pratiques. Vous n&apos;avez rien &agrave; faire.]]></string>
+	<string name="error_warning_desc" introduced="6.4.0"><![CDATA[Avertissement - Ce type d&apos;erreur a peu de chances de poser des probl&egrave;mes de fonctionnment, mais il y a un probl&egrave;me, qui pourrait en causer de plus graves par la suite. Vous devriez les corriger.]]></string>
+	<string name="error_parse_desc" introduced="6.4.0"><![CDATA[Erreur de syntaxe - Ce type d&apos;erreur est caus&eacute; par des symboles absents ou mal utilis&eacute;s. Vous devez les corriger.]]></string>
+	<string name="error_fatal_desc" introduced="6.4.0"><![CDATA[Erreur fatale - Ce type d&apos;erreur est consid&eacute;r&eacute; comme critique. Vous <strong>devez</strong> les corriger.]]></string>
+	<string name="error_exception_desc" introduced="6.4.0"><![CDATA[Exception - Ce type d&apos;erreur est consid&eacute;r&eacute; comme critique. Vous <strong>devez</strong> les corriger.]]></string>
+	<string name="error_general_desc" introduced="6.4.0"><![CDATA[Note&nbsp;: les notifications et les avertissements ne seront journalis&eacute;s que si le <a href="?_g=settings#Advanced_Settings">mode debug</a> est activ&eacute;.]]></string>
+	<string name="w3w_status" introduced="6.4.0"><![CDATA[Activer]]></string>
+	<string name="sendgrid_key" introduced="6.4.0"><![CDATA[Clef API SendGrid API]]></string>
+	<string name="dbl_opt" introduced="6.2.0"><![CDATA[Double consentement marketing]]></string>
+	<string name="social_accounts" introduced="6.0.0"><![CDATA[R&eacute;seaux sociaux (nom d&apos;utilisateur ou URL)]]></string>
 	<string name="seo_add_cats" introduced="6.0.0"><![CDATA[Ajouter la cat&eacute;gorie dans l&apos;URL de l&apos;article&nbsp;?]]></string>
 	<string name="seo_add_cats_top" introduced="6.0.0"><![CDATA[Cat&eacute;gories uniquement]]></string>
 	<string name="seo_add_cats_all" introduced="6.0.0"><![CDATA[Cat&eacute;gories et sous-cat&eacute;gories]]></string>
 	<string name="seo_cat_add_cats" introduced="6.0.0"><![CDATA[Ajouter les sous-cat&eacute;gories dans l&apos;URL de l&apos;article&nbsp;?]]></string>
 	<string name="seo_ext" introduced="6.4.0"><![CDATA[Extension des URLs de r&eacute;f&eacute;rencement]]></string>
-    <string name="admin_only_skin_select" introduced="6.0.0"><![CDATA[Oui (administrateurs connect&eacute;s uniquement)]]></string>
+	<string name="admin_only_skin_select" introduced="6.0.0"><![CDATA[Oui (administrateurs connect&eacute;s uniquement)]]></string>
 	<string name="all_skin_select" introduced="6.0.0"><![CDATA[Oui (tout le monde)]]></string>
 	<string name="admin_order_status_notification" introduced="5.0.0"><![CDATA[&Eacute;tat des commandes pour les notifications par courriel admin]]></string>
 	<string name="analyze" introduced="5.0.0"><![CDATA[Analyser]]></string>
@@ -2048,7 +2059,7 @@
 	<string name="logo_all_skins" introduced="5.0.0"><![CDATA[Toutes les apparences]]></string>
 	<string name="logo_all_styles" introduced="5.0.0"><![CDATA[Tous les styles]]></string>
 	<string name="matrix_in_use" introduced="5.2.6"><![CDATA[(Niveau de stock actif uniquement&nbsp;!)]]></string>
-    <string name="message_marked_read" introduced="5.0.0"><![CDATA[Message marqu&eacute; comme lu.]]></string>
+	<string name="message_marked_read" introduced="5.0.0"><![CDATA[Message marqu&eacute; comme lu.]]></string>
 	<string name="message_marked_unread" introduced="5.0.0"><![CDATA[Message marqu&eacute; comme non lu.]]></string>
 	<string name="no_admin_affect" introduced="5.1.0"><![CDATA[(N&apos;affecte pas les administrateurs)]]></string>
 	<string name="notify_archive_create" introduced="5.0.0"><![CDATA[Sauvegarde cr&eacute;&eacute;e.]]></string>
@@ -2103,8 +2114,8 @@
 	<string name="proxy_user" introduced="5.0.0"><![CDATA[Nom d&apos;utilisateur]]></string>
 	<string name="recaptcha_enable" introduced="5.0.0"><![CDATA[Activer <a href="https://www.google.com/recaptcha/intro/index.html" target="_blank">Google reCAPTCHA</a>]]></string>
 	<string name="reCAPTCHA_v2_na" introduced="6.1.6"><![CDATA[<strong>Avertissement&nbsp;:</strong> Il semblerait que l&apos;apparence actuelle n&apos;est pas compatible avec reCAPTCHA v2.]]></string>
-    <string name="reCAPTCHA_invisible_na" introduced="6.1.6"><![CDATA[<strong>Avertissement&nbsp;:</strong> Il semblerait que l&apos;apparence actuelle n&apos;est pas compatible avec Invisible reCAPTCHA.]]></string>
-    <string name="new_recaptcha_note" introduced="6.0.0"><![CDATA[Le module et les clefs sont fournies par <a href="https://www.google.com/recaptcha/admin" target="_blank">Google</a>.]]></string>
+	<string name="reCAPTCHA_invisible_na" introduced="6.1.6"><![CDATA[<strong>Avertissement&nbsp;:</strong> Il semblerait que l&apos;apparence actuelle n&apos;est pas compatible avec Invisible reCAPTCHA.]]></string>
+	<string name="new_recaptcha_note" introduced="6.0.0"><![CDATA[Le module et les clefs sont fournies par <a href="https://www.google.com/recaptcha/admin" target="_blank">Google</a>.]]></string>
 	<string name="recaptcha_public_key" introduced="6.0.0"><![CDATA[Clef du site]]></string>
 	<string name="recaptcha_secret_key" introduced="6.0.0"><![CDATA[Clef secr&egrave;te]]></string>
 	<string name="repair" introduced="5.0.0"><![CDATA[R&eacute;parer]]></string>
@@ -2289,6 +2300,11 @@
 	<string name="title_hide_out_of_stock" introduced="5.1.0"><![CDATA[Masquer les ruptures de stock]]></string>
   </group>
   <group name="setup">
+	<string name="help_dbport" introduced="6.1.1"><![CDATA[Port TCP du serveur de base de donn&eacute;es. La plupart du temps, la valeur par d&eacute;faut (3306) est la bonne.]]></string>
+	<string name="help_dbsocket" introduced="6.1.1"><![CDATA[Socket utilis&eacute; sur le serveur de base de donn&eacute;es. La plupart du temps, vous pouvez laisser vide.]]></string>
+	<string name="db_port" introduced="6.1.1"><![CDATA[Port TCP de la base de donn&eacute;es]]></string>
+	<string name="db_socket" introduced="6.1.1"><![CDATA[Socket de la base de donn&eacute;es]]></string>
+	<string name="urls_changed" introduced="6.1.0"><![CDATA[IMPORTANT&nbsp;: pour des raisons de s&eacute;curit&eacute;, nous avons modifi&eacute; l&apos;URL de l&apos;interface d&apos;administration.]]></string>
 	<string name="error_strict_mode" introduced="5.1.5"><![CDATA[<strong>Avertissement&nbsp;:</strong> MySQL est lanc&eacute; en mode &laquo;&nbsp;Strict&nbsp;&raquo;. Ce mode doit &ecirc;tre d&eacute;sactiv&eacute; pour que la boutique fonctionne correctement.]]></string>
 	<string name="already_upgraded" introduced="5.0.0"><![CDATA[Cette boutique a d&eacute;j&agrave; &eacute;t&eacute; mise &agrave; jour. Aucune action suppl&eacute;mentaire n&apos;est requise.]]></string>
 	<string name="button_restart" introduced="5.0.0"><![CDATA[Recommencer]]></string>
@@ -2297,8 +2313,14 @@
 	<string name="default_doc_title_about" introduced="5.0.0"><![CDATA[&Agrave; propos]]></string>
 	<string name="default_doc_title_terms" introduced="5.0.0"><![CDATA[Conditions g&eacute;n&eacute;rales d&apos;utilisation]]></string>
 	<string name="default_doc_title_privacy" introduced="5.0.0"><![CDATA[Confidentialit&eacute;]]></string>
+	<string name="default_doc_title_returns" introduced="6.2.1"><![CDATA[Politique de retours]]></string>
 	<string name="default_doc_content" introduced="5.0.0"><![CDATA[Vous pouvez le g&eacute;rer dans la rubrique <span class="navTitle">Pages et Documents</span> dans l&apos;interface d&apos;administration.]]></string>
 	<string name="default_doc_content_welcome" introduced="5.0.0"><![CDATA[Ce message peut &ecirc;tre modifi&eacute; avec le <strong><span style="coulor: red;">Rich</span><span style="color: blue;">Text</span><span style="color: green;">Editor</span></strong> qui peut &ecirc;tre utilis&eacute; pour ajouter un contenu sonore pour vous aider &agrave; vendre vos articles. Vous le trouverez dans l&apos;interface d&apos;administration de la boutique, dans la partie &laquo;&nbsp;Documents&nbsp;&raquo;.]]></string>
+	<!--
+	CNE - Lignes supplémentaires
+	pour garder la numérotation des lignes
+	co-hé-ren-te !
+	-->
 	<string name="db_host" introduced="5.0.0"><![CDATA[Serveur de la base de donn&eacute;es]]></string>
 	<string name="db_name" introduced="5.0.0"><![CDATA[Nom de la base]]></string>
 	<string name="db_prefix" introduced="5.0.0"><![CDATA[Pr&eacute;fixe des tables SQL]]></string>
@@ -2322,6 +2344,7 @@
 	<string name="install_fresh" introduced="5.0.0"><![CDATA[Choisissez cette option si vous souhaitez effectuer une nouvelle installation de CubeCart.<br /> <strong>Avertissement&nbsp;:</strong> En activant cette option, toutes les donn&eacute;es existantes de la boutique seront &eacute;cras&eacute;es&nbsp;!]]></string>
 	<string name="licence_agree" introduced="5.0.0"><![CDATA[J&apos;accepte les conditions g&eacute;n&eacute;rales de la licence logicielle.]]></string>
 	<string name="link_admin_panel" introduced="5.0.0"><![CDATA[Interface d&apos;administration]]></string>
+	<string name="link_admin_panel_note" introduced="6.1.0"><![CDATA[Marquez cette page dans votre navigateur, vous en aurez besoin.]]></string>
 	<string name="link_store_front" introduced="5.0.0"><![CDATA[Page d&apos;accueil de la boutique]]></string>
 	<string name="percent_complete" introduced="5.0.0"><![CDATA[%d%% termin&eacute;s]]></string>
 	<string name="title_admin_profile" introduced="5.0.0"><![CDATA[Profil de l&apos;administrateur]]></string>
@@ -2351,13 +2374,6 @@
 	<string name="help_dbprefix" introduced="5.0.0"><![CDATA[Si vous h&eacute;bergez plusieurs boutiques dans une m&ecirc;me base de donn&eacute;es, vous devez d&eacute;finir un pr&eacute;fixe de tables unique pour emp&ecirc;cher les conflits.]]></string>
 	<string name="help_defaultlang" introduced="5.0.0"><![CDATA[Choisissez la langue par d&eacute;faut de la boutique.]]></string>
 	<string name="help_defaultcurrency" introduced="5.0.0"><![CDATA[Choisissez la devise par d&eacute;faut de la boutique.]]></string>
-	<string name="db_port" introduced="6.1.1"><![CDATA[Port TCP de la base de donn&eacute;es]]></string>
-	<string name="db_socket" introduced="6.1.1"><![CDATA[Socket de la base de donn&eacute;es]]></string>
-	<string name="default_doc_title_returns" introduced="6.2.1"><![CDATA[Politique de retours]]></string>
-	<string name="help_dbport" introduced="6.1.1"><![CDATA[Port TCP du serveur de base de donn&eacute;es. La plupart du temps, la valeur par d&eacute;faut (3306) est la bonne.]]></string>
-	<string name="help_dbsocket" introduced="6.1.1"><![CDATA[Socket utilis&eacute; sur le serveur de base de donn&eacute;es. La plupart du temps, vous pouvez laisser vide.]]></string>
-	<string name="link_admin_panel_note" introduced="6.1.0"><![CDATA[Marquez cette page dans votre navigateur, vous en aurez besoin.]]></string>
-	<string name="urls_changed" introduced="6.1.0"><![CDATA[IMPORTANT&nbsp;: pour des raisons de s&eacute;curit&eacute;, nous avons modifi&eacute; l&apos;URL de l&apos;interface d&apos;administration.]]></string>
   </group>
   <group name="statistics">
 	<string name="notify_sales_none" introduced="5.0.0"><![CDATA[Aucune vente n&apos;a &eacute;t&eacute; effectu&eacute;e.]]></string>
@@ -2397,9 +2413,9 @@
   </group>
   <group name="translate">
 	<string name="no_phrases_found" introduced="6.4.3"><![CDATA[Aucun r&eacute;sultat pour l&apos;expression &laquo;&nbsp;%s&nbsp;&raquo;.]]></string>
-    <string name="phrases_found" introduced="6.4.3"><![CDATA[R&eacute;sultats de la recherche]]></string>
-    <string name="search_phrases" introduced="6.4.3"><![CDATA[Rechercher dans cette traduction]]></string>
-    <string name="error_no_languages" introduced="6.0.0"><![CDATA[Aucune langue n&apos;a &eacute;t&eacute; trouv&eacute;e. Visitez le <a href="?_g=marketplace" target="_blank">magasin CubeCart</a> pour installer celles dont vous avez besoin.]]></string>
+	<string name="phrases_found" introduced="6.4.3"><![CDATA[R&eacute;sultats de la recherche]]></string>
+	<string name="search_phrases" introduced="6.4.3"><![CDATA[Rechercher dans cette traduction]]></string>
+	<string name="error_no_languages" introduced="6.0.0"><![CDATA[Aucune langue n&apos;a &eacute;t&eacute; trouv&eacute;e. Visitez le <a href="?_g=marketplace" target="_blank">magasin CubeCart</a> pour installer celles dont vous avez besoin.]]></string>
 	<string name="error_language_create" introduced="5.0.0"><![CDATA[Impossible de cr&eacute;er la langue.]]></string>
 	<string name="error_language_delete" introduced="5.0.0"><![CDATA[Impossible de supprimer la langue.]]></string>
 	<string name="error_language_import_failed" introduced="5.0.0"><![CDATA[Impossible d&apos;importer la langue.]]></string>
@@ -2462,8 +2478,8 @@
 	<string name="tab_group_create" introduced="5.0.0"><![CDATA[Cr&eacute;er un groupe d&apos;expressions]]></string>
 	<string name="tab_string_create" introduced="5.0.0"><![CDATA[Cr&eacute;er une nouvelle expression]]></string>
 	<string name="tab_edit_phrases" introduced="5.0.0"><![CDATA[Modifier les expressions]]></string>
-    <string name="tab_edit_phrase" introduced="6.4.3"><![CDATA[Modifier l&apos;expression]]></string>
-    <string name="title_language_create" introduced="5.0.0"><![CDATA[Cr&eacute;er une traduction]]></string>
+	<string name="tab_edit_phrase" introduced="6.4.3"><![CDATA[Modifier l&apos;expression]]></string>
+	<string name="title_language_create" introduced="5.0.0"><![CDATA[Cr&eacute;er une traduction]]></string>
 	<string name="title_language_import" introduced="5.0.0"><![CDATA[Importer une traduction]]></string>
 	<string name="title_languages" introduced="5.0.0"><![CDATA[Langues]]></string>
 	<string name="title_translate" introduced="5.0.0"><![CDATA[Traduire]]></string>
@@ -2494,7 +2510,7 @@
 	<string name="password_current" introduced="5.0.0"><![CDATA[Mot de passe actuel]]></string>
 	<string name="password_new" introduced="5.0.0"><![CDATA[Nouveau mot de passe]]></string>
 	<string name="title" introduced="5.0.0"><![CDATA[Titre]]></string>
-    <string name="password_too_long" introduced="6.4.6"><![CDATA[Si votre mot de passe d&eacute;passe 64 caract&egrave;res, fermez votre session et utilisez l&apos;outil de r&eacute;initialisation de mot de passe.]]></string>
+	<string name="password_too_long" introduced="6.4.6"><![CDATA[Si votre mot de passe d&eacute;passe 64 caract&egrave;res, fermez votre session et utilisez l&apos;outil de r&eacute;initialisation de mot de passe.]]></string>
   </group>
  </translation>
 </language>
